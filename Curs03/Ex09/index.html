@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/">
+    <label for="name">Nume:*</label>
+    <input type="text"
+      name="name"
+      id="name"
+      minlength="5"
+      maxlength="30"
+      required
+    >
+    <br>
+
+    <label for="surname">Prenume:*</label>
+    <input type="text"
+      name="surname"
+      id="surname"
+      minlength="5"
+      maxlength="30"
+      required
+    >
+    <br>
+
+
+    <label for="message">Mesaj:*</label>
+    <textarea name="mesage"
+      id="mesage"
+      cols="30"
+      rows="4"
+    ></textarea>
+    <br>
+
+
+    <label for="details">Detalii</label>
+    <textarea name="details"
+      id="details"
+      cols="30"
+      rows="8"
+    ></textarea>
+    <br>
+
+
+    <button type="reset">Reseteaza</button>
+    <button type="submit">Trimite</button>
+  </form>
+</body>
+</html>
