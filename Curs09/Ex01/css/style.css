@@ -17,3 +17,21 @@ ul, ol {
 ul li{
   display: inline;
 }
+
+.para-large {
+  display: block;
+  margin: 25px;
+  padding: 10px;
+}
+
+.para-large span {
+  display: inline-block;
+  padding: 5px;
+  border:dotted 2px green;
+  margin: 5px;
+}
+
+ol li {
+  dispslay: inline-block;
+  margin: 15px o 15px o;
+}

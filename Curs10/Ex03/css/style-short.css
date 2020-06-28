@@ -15,3 +15,41 @@
   text-decoration: underline solid lawngreen;
 }
 
+.pane-short .conatiner .para {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: darkblue;
+
+  margin: 5px;
+}
+
+
+.pane-short .container .short-para {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: magenta;
+
+  width: 75%;
+
+  margin: 11px  auto;
+
+  border: 1px solid blueviolet;
+
+  padding: 0 10px 0 10px;
+}
+
+.pane-short .anchor-list li a {
+  text-decoration-line: overline ;
+  text-decoration-style: solid;
+  text-decoration-color: lightcoral;
+
+  margin: 5px;
+
+  padding: 2px 4px 5px 9px;
+}
+
+.pane-short .list li {
+  text-decoration-line: line-through;
+  text-decoration-style: double;
+  text-decoration-color: brown;
+}

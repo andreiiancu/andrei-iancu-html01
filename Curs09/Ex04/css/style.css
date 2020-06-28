@@ -22,10 +22,14 @@
 
 .box-brown {
   background-color: brown;
+  transform: skew(10deg, 10deg)
+    translate(5px, 10px);
 }
 
 .box-yellow {
   background-color: yellow;
+  transform: scale(1.2px)
+    rotate(-15deg);
 }
 
 

@@ -11,3 +11,60 @@
   padding: 8px;
 }
 
+.pane-short .para {
+  border-width: 1px;
+  border-style: dotted;
+  border-color: red;
+  padding: 3px;
+}
+
+.pane-short .short-para {
+  border-width: 1px;
+  border-style: solid;
+  border-color: wheat;
+
+  width: 50%;
+  margin: 15px auto 15px auto;
+  padding: 8px;
+}
+
+.pane-short .container p {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: brown;
+
+  padding-top: 5px 2px;
+}
+
+.pane-short .anchor-list {
+  border-width: 1px;
+  border-style: solid;
+  border-color: royalblue;
+
+  overflow: hidden;
+
+  padding: 12px 6px;
+}
+
+.pane-short .anchor-list li {
+  border-width: 1px;
+  border-style: dashed;
+  border-color: green;
+
+  float: left;
+
+  padding: 0 5px 0 5px;
+
+  margin: 0 5px 0 5px;
+}
+
+.pane-short .list li {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blueviolet;
+
+  margin: 2px 25% 8px 15px;
+
+  padding: 3px;
+}
+
