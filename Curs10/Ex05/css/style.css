@@ -1,0 +1,7 @@
+.nested > li:first-child > a {
+  text-decoration: none;
+}
+
+.nested > li > ul > li:last-child > a {
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-child(even) a:hover {
+  color: red;
+}
+
+h1.heading:hover {
+  text-decoration: underline;
+}
+
+p:hover i {
+  transform: translate(-2px, -2px);
+  display: inline-block;
+}
+
