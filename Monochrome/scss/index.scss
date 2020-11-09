@@ -1,8 +1,7 @@
 $fa-font-path: '/fonts';
-@import '../node_modules/@fortawesome/fontawesome-free/scss/regular';
-@import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
-@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
-@import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
+// @import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
+// @import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+// @import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
 @import '../node_modules/bootstrap/scss/media';
 // // site fonts
 // @import './fonts';
@@ -12,6 +11,10 @@ $fa-font-path: '/fonts';
 @import '../scss/reset';
 // @import './reset';
 // @import '../scss/variables';
-@import '../scss/shared/header';
+@import '../scss/reset';
 // @import './homepage/index';
 // @import './category/index';
+
+body {
+  background-color: aqua;
+}
