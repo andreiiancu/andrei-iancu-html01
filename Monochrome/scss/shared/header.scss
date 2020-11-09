@@ -1,0 +1,13 @@
+.banner-header {
+  background: url('/Monochrome/img/body-texture.jpg') no-repeat center center;
+  background-size: cover;
+  height: 716px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+  position: relative;
+  border: solid 5px red;
+}
