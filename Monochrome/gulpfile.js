@@ -73,7 +73,7 @@ gulp.task('img', function () {
 gulp.task('connect', function (done) {
   connect.server({
     root: './dist',
-    port: 8080,
+    port: 8081,
     livereload: true,
   });
 
@@ -87,7 +87,7 @@ gulp.task('fonts', function () {
 gulp.task('open', function () {
   return gulp.src('./dist/index.html').pipe(
     open({
-      uri: 'http://localhost:8080',
+      uri: 'http://localhost:8081',
     }),
   );
 });
