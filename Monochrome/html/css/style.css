@@ -248,48 +248,21 @@ body li {
 
 .container-hamburger-menu :hover {
     background-color: coral;
-    transition-delay: 10ms;
-    transform: scale(1.1);
-    order: 2px solid #fff;
+    transition: 0.3s;
+    border: 2px solid coral;
     height: 9px;
-    border-radius: 50%;
+    border-radius: 9%;
     margin-left: -1px;
     margin-top: 2px;
-    animation: atom 300ms linear 1;
-    width: 25px;
     top: 0px;
-    background: transparent;
-    animation: division 300ms linear 1;
-    transform: rotate(45deg);
-}
-
-#hamburger:hover span:nth-child(1) {
-    transform: rotate(-33deg);
-}
-
-#hamburger:hover span:nth-child(2) {
-    transform: rotate(90deg);
-}
-
-#hamburger:hover span:nth-child(3) {
-    transform: rotate(33deg);
-}
-
-@keyframes atom {
-    0% {
-        transform: rotate(180deg);
-    }
 }
 
 #hamburger {
-    width: 40px;
+    width: 58px;
     height: 40px;
     display: block;
     position: relative;
-    float: right;
-    transform: rotate(0deg);
-    transition: .5s ease-in-out;
-    cursor: pointer;
+    margin-bottom: 100;
 }
 
 #hamburger span {
@@ -301,8 +274,6 @@ body li {
     border-radius: 9px;
     opacity: 1;
     left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
 }
 
 #hamburger span:nth-child(1) {
@@ -318,8 +289,7 @@ body li {
 }
 
 #hamburger.open span:nth-child(1) {
-    top: 14px;
-    transform: rotate(135deg);
+    top: 13px;
 }
 
 #hamburger.open span:nth-child(2) {
@@ -329,7 +299,6 @@ body li {
 
 #hamburger.open span:nth-child(3) {
     top: 14px;
-    transform: rotate(-135deg);
 }
 
 .social-icons {
