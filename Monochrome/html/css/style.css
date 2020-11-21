@@ -120,7 +120,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #E8E8E8;
     font-size: 16px;
-    font-family: ;
 }
 
 body li {
@@ -133,19 +132,204 @@ body li {
     margin: 0 auto;
 }
 
-.free-shipping ul {
-    display: flex;
-    justify-content: space-around;
-    size: 60px;
-    background-color: var(--first-color);
-    opacity: 1;
-}
+
+/* header */
 
 .free-shipping ul li a {
     font-family: "Roboto-Regular", sans-serif;
-    color: #5E5A5A;
+    color: var(--third-color);
     font: normal normal normal 14px/17px Roboto;
     height: 18px;
+}
+
+.free-shipping .airplane a .fas {
+    color: rgb(128, 128, 128);
+}
+
+.free-shipping .airplane a :hover {
+    background-color: coral;
+    color: var(--fourth-color);
+    height: 40px;
+    padding: 0 30px 0 30px;
+    border-radius: 30px;
+}
+
+.free-shipping ul {
+    display: flex;
+    align-content: center;
+    margin-top: 18px;
+    padding-bottom: 18px;
+    justify-content: space-between;
+    margin-left: 60px;
+    size: 60px;
+    background-color: var(--first-color);
+    opacity: 1;
+    border-bottom: whitesmoke 4px solid;
+}
+
+.free-shipping ul li :hover {
+    background: rgba(255, 255, 255, 1);
+    color: coral;
+}
+
+.free-shipping ul .fas {
+    font-size: 1.4rem;
+    opacity: 1;
+    color: var(--third-color);
+    transition: all 0.5s ease;
+}
+
+.free-shipping ul {
+    margin-right: 190px;
+}
+
+.monochrome {
+    background-color: var(--first-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.monochrome ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.monochrome h1 {
+    display: flex;
+    margin-left: -20px;
+    font: normal normal normal 50px/62px Baskerville Old Face BQ;
+    margin-top: -20px;
+}
+
+.monochrome ul li {
+    background-color: transparent;
+    margin-top: 17px;
+    margin-right: 70px;
+    justify-content: flex-end;
+    margin-left: 20px;
+    padding-left: 200px;
+    margin-top: -13px;
+}
+
+.monochrome .far {
+    border-color: var(--third-color) 2px solid;
+    color: var(--third-color);
+    font-size: 1.7rem;
+}
+
+.monochrome .fa {
+    border-color: var(--third-color) 2px solid;
+    color: var(--third-color);
+    font-size: 1.7rem;
+}
+
+.search-top {
+    display: flex;
+    background-color: var(--third-color);
+    height: 100px;
+    justify-content: flex-end;
+    align-content: center;
+    padding-top: 30px;
+    padding-right: 60px;
+}
+
+.search-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    background: dodgerblue;
+    padding: 20px;
+    height: 70px;
+}
+
+.container-hamburger-menu :hover {
+    background-color: coral;
+    transition-delay: 10ms;
+    transform: scale(1.1);
+    order: 2px solid #fff;
+    height: 9px;
+    border-radius: 50%;
+    margin-left: -1px;
+    margin-top: 2px;
+    animation: atom 300ms linear 1;
+    width: 25px;
+    top: 0px;
+    background: transparent;
+    animation: division 300ms linear 1;
+    transform: rotate(45deg);
+}
+
+#hamburger:hover span:nth-child(1) {
+    transform: rotate(-33deg);
+}
+
+#hamburger:hover span:nth-child(2) {
+    transform: rotate(90deg);
+}
+
+#hamburger:hover span:nth-child(3) {
+    transform: rotate(33deg);
+}
+
+@keyframes atom {
+    0% {
+        transform: rotate(180deg);
+    }
+}
+
+#hamburger {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: relative;
+    float: right;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#hamburger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+#hamburger span:nth-child(1) {
+    top: 0px;
+}
+
+#hamburger span:nth-child(2) {
+    top: 12px;
+}
+
+#hamburger span:nth-child(3) {
+    top: 24px;
+}
+
+#hamburger.open span:nth-child(1) {
+    top: 14px;
+    transform: rotate(135deg);
+}
+
+#hamburger.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+#hamburger.open span:nth-child(3) {
+    top: 14px;
+    transform: rotate(-135deg);
 }
 
 .social-icons {
