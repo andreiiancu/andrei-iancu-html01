@@ -1,6 +1,7 @@
 @import './../node_modules/@fortawesome/fontawesome-free/scss/regular';
 @import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
 @import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import'/Monochrome/node_modules/bootstrap/scss/bootstrap';
 @import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
 @font-face {
     font-family: 'Roboto';
@@ -101,6 +102,12 @@
 
 /* variable-colors-css */
 
+.container {
+    width: 100%;
+    max-width: 1284px;
+    margin: 0 auto;
+}
+
 :root {
     --first-color: #FFFFFF;
     --second-color: #111111;
@@ -120,6 +127,13 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #E8E8E8;
     font-size: 16px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
 body li {
@@ -312,8 +326,8 @@ body li {
     background-color: #cccccc;
     height: 780px;
     width: auto;
-    flex-direction: row;
     margin-top: -1px;
+    justify-content: flex-end;
 }
 
 ul.social-icons {
@@ -350,9 +364,8 @@ ul .social-icons li {
     flex-direction: row;
 }
 
-.new-in .button {
-    display: grid;
-    align-content: flex-end;
+.social-icons .new-in button {
+    display: flex;
     font-family: "Roboto-Regular", sans-serif;
     justify-content: flex-end;
     background-color: var(--first-color);
@@ -361,12 +374,117 @@ ul .social-icons li {
     color: var(--third-color);
     border-radius: 20PX;
     transition: 0.6s;
-    margin-left: 500px;
 }
 
-.new-in :hover {
+.social-icons .new-in :hover {
     background-color: coral;
     /* Green */
     color: white;
     border-radius: 20px;
+}
+
+.new-in {
+    display: flex;
+    padding: 360px;
+    align-content: flex-end;
+    margin-right: -160px;
+    margin-bottom: -200px;
+    margin-top: 200px;
+}
+
+.content-main {
+    margin-top: 1rem;
+    border-top: #CCCCCC solid 2px;
+}
+
+.content-main h1 {
+    text-align: center;
+    font-size: 51px;
+    color: var(--third-color);
+    font-weight: 700;
+    font: normal normal bold;
+}
+
+.product-tiles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-preview .product-tile {
+    display: flex;
+    justify-content: center;
+}
+
+.product-tile {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.product-image-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.product-image-container img {
+    width: 100%;
+}
+
+.product-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.product-badge-alt {
+    background-color: var(--first-color);
+}
+
+.product-tile .product-tile-info {
+    margin-bottom: 20px;
+}
+
+.product-tile-info a {
+    display: block;
+    align-content: flex-end;
+}
+
+.product-title {
+    font-weight: 500;
+    color: var(--third-color);
+    font-size: 24px;
+}
+
+.product-tile-pricing span {
+    display: block;
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+.product-title a span {
+    display: flex;
+    justify-content: center;
+}
+
+.image-watches main {
+    display: grid;
+    justify-content: space-between;
+    margin-left: 10px;
+    column-gap: 1px;
+    grid-template-columns: 700px 900px;
+    justify-content: space-evenly;
+    font: normal normal 300 22px/43px Roboto
+}
+
+.view-all {
+    display: flex;
+    justify-content: center;
+    border-color: green;
 }
