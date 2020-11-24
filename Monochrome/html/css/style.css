@@ -102,12 +102,6 @@
 
 /* variable-colors-css */
 
-.container {
-    width: 100%;
-    max-width: 1284px;
-    margin: 0 auto;
-}
-
 :root {
     --first-color: #FFFFFF;
     --second-color: #111111;
@@ -130,20 +124,16 @@ body {
     width: 100%;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-}
-
 body li {
     list-style-type: none;
 }
 
-.container {
+html .body {
     width: 100%;
     max-width: 1290px;
     margin: 0 auto;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -394,7 +384,8 @@ ul .social-icons li {
 
 .content-main {
     margin-top: 1rem;
-    border-top: #CCCCCC solid 2px;
+    border-top: #cccccc solid 2px;
+    width: auto;
 }
 
 .content-main h1 {
@@ -413,6 +404,7 @@ ul .social-icons li {
 .catalog-preview .product-tile {
     display: flex;
     justify-content: center;
+    margin-left: 3rem;
 }
 
 .product-tile {
@@ -486,5 +478,50 @@ ul .social-icons li {
 .view-all {
     display: flex;
     justify-content: center;
-    border-color: green;
+}
+
+.footer {
+    display: grid;
+    align-content: flex-start;
+    grid-template-columns: repeat(1);
+    justify-content: center;
+}
+
+.first-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #E8E8E8;
+    width: 1990px;
+}
+
+.footer-secondary nav h2 {
+    display: flex;
+    justify-content: center;
+    font: normal normal normal;
+    font-size: 34px;
+}
+
+.footer-secondary .be-the-first p,
+.email-footer,
+button,
+.likeably {
+    display: flex;
+    justify-content: center;
+}
+
+.likeably {
+    display: grid;
+    align-content: flex-start;
+    grid-template-columns: repeat(1);
+    justify-content: center;
+}
+
+.likeably h2 {
+    font: normal normal normal;
+    font-size: 34px;
+}
+
+.likeably-icons ul li .fab {
+    display: flex;
+    justify-content: space-between;
 }
