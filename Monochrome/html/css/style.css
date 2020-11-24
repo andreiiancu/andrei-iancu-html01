@@ -525,7 +525,30 @@ button,
     font-size: 34px;
 }
 
-.likeably-icons ul li .fab {
+.likeably-icons ul {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-contact {
+    display: flex;
+    width: 1990px;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: var(--first-color);
+}
+
+.footer-contact p i {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.footer-contact ul li {
+    display: flex;
+    margin-top: 1rem;
+    align-content: center;
+    justify-content: space-around;
 }
