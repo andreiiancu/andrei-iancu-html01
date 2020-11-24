@@ -384,16 +384,20 @@ ul .social-icons li {
 
 .content-main {
     margin-top: 1rem;
-    border-top: #cccccc solid 2px;
     width: auto;
+    width: 1490px;
+    margin-left: 10rem;
 }
 
 .content-main h1 {
+    margin-top: 1rem;
+    padding-top: 2rem;
     text-align: center;
     font-size: 51px;
     color: var(--third-color);
     font-weight: 700;
     font: normal normal bold;
+    border-top: #E8E8E8 solid 4px;
 }
 
 .product-tiles {
