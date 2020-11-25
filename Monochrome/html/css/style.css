@@ -539,16 +539,40 @@ button,
     background-color: var(--first-color);
 }
 
-.footer-contact p i {
-    display: flex;
-    margin-top: 5rem;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
 .footer-contact ul li {
     display: flex;
     margin-top: 1rem;
     align-content: center;
     justify-content: space-around;
+}
+
+.footer-contact p {
+    display: flex;
+    margin-top: 1rem;
+    align-content: center;
+    flex-direction: row;
+}
+
+.footer-contact .footer-left {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -22rem;
+}
+
+.footer-contact .footer-right {
+    display: flex;
+    justify-content: space-around;
+    margin-right: -19rem;
+}
+
+.footer-main ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-main .main-footer-one {
+    display: flex;
+    justify-content: flex-end;
 }
