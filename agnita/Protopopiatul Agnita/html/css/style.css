@@ -99,6 +99,17 @@
      font-display: swap;
  }
 
- body {
-     background-color: url('/img/IMG_2336.jpg');
+ footer {
+     display: block;
+     width: auto;
+     height: 500px;
+     padding: 1000px;
+ }
+
+ .header-banner {
+     background: url('../../img/IMG_2336.jpg') center no-repeat;
+     justify-content: center;
+     background-size: cover;
+     margin-top: 10px;
+     height: 400px;
  }
