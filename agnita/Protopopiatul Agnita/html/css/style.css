@@ -99,6 +99,10 @@
      font-display: swap;
  }
 
+ body li {
+     list-style-type: none;
+ }
+
  footer {
      display: block;
      width: auto;
@@ -106,10 +110,67 @@
      padding: 1000px;
  }
 
- .header-banner {
-     background: url('../../img/IMG_2336.jpg') center no-repeat;
-     justify-content: center;
-     background-size: cover;
+ .header-information {
+     font-family: ' Quicksand', 'Times new roman', Times, serif;
+     background-color: #333;
+     text-decoration: antiquewhite;
+     color: white;
      margin-top: 10px;
-     height: 400px;
+     height: 100px;
+     line-height: 24px;
+     font-weight: 300;
+     font-style: normal;
+     padding-left: 208px;
+ }
+
+ .header-information h2 {
+     display: flex;
+     font-size: 36px;
+     font-weight: 300;
+     padding-top: 18px;
+ }
+
+ @media screen and (max-width: 600px) {
+     .header-information {
+         width: 970px;
+         background-color: coral;
+         font-size: 24px;
+     }
+ }
+
+ .header-information h1 {
+     display: flex;
+     justify-content: center;
+ }
+ /* logo */
+
+ .logo {
+     display: flex;
+     background: url('../../img/logo.png') no-repeat left center;
+     margin-top: -39px;
+     margin-left: 100px;
+     width: 10%;
+     height: 290px;
+     background-size: 190px;
+     align-content: flex-start;
+ }
+ /* bar-top-menu  */
+
+ .top-menu nav a {
+     display: flex;
+     align-items: flex-start;
+     padding-left: 290px;
+     margin-top: -380px;
+ }
+
+ .top-menu {
+     margin-top: 1px;
+     height: 250px;
+     padding-bottom: 70px;
+     background: transparent;
+     border: crimson solid 2px;
+ }
+
+ .nav-bar .navbar-brand :hover {
+     background: brown;
  }
