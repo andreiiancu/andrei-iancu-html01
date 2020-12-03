@@ -12,7 +12,7 @@
      font-style: normal;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-Regular.woff2') format('woff2'), url('/fonts/Roboto-Regular.woff') format('woff');
@@ -20,7 +20,7 @@
      font-style: normal;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-BoldItalic.woff2') format('woff2'), url('/fonts/Roboto-BoldItalic.woff') format('woff');
@@ -28,7 +28,7 @@
      font-style: italic;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-Thin.woff2') format('woff2'), url('/fonts/Roboto-Thin.woff') format('woff');
@@ -36,7 +36,7 @@
      font-style: normal;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-Light.woff2') format('woff2'), url('/fonts/Roboto-Light.woff') format('woff');
@@ -44,7 +44,7 @@
      font-style: normal;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-Black.woff2') format('woff2'), url('/fonts/Roboto-Black.woff') format('woff');
@@ -52,7 +52,7 @@
      font-style: normal;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-BlackItalic.woff2') format('woff2'), url('/fonts/Roboto-BlackItalic.woff') format('woff');
@@ -60,7 +60,7 @@
      font-style: italic;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-MediumItalic.woff2') format('woff2'), url('/fonts/Roboto-MediumItalic.woff') format('woff');
@@ -68,7 +68,7 @@
      font-style: italic;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-Italic.woff2') format('woff2'), url('/fonts/Roboto-Italic.woff') format('woff');
@@ -76,7 +76,7 @@
      font-style: italic;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-ThinItalic.woff2') format('woff2'), url('/fonts/Roboto-ThinItalic.woff') format('woff');
@@ -84,7 +84,7 @@
      font-style: italic;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-Medium.woff2') format('woff2'), url('/fonts/Roboto-Medium.woff') format('woff');
@@ -92,7 +92,7 @@
      font-style: normal;
      font-display: swap;
  }
- 
+
  @font-face {
      font-family: 'Roboto';
      src: url('/fonts/Roboto-LightItalic.woff2') format('woff2'), url('/fonts/Roboto-LightItalic.woff') format('woff');
@@ -100,7 +100,7 @@
      font-style: italic;
      font-display: swap;
  }
- 
+
  body li {
      font-family: 'Roboto', sans-serif;
      display: block;
@@ -117,7 +117,7 @@
      height: 500px;
      padding: 1000px;
  } */
- 
+
  .header-information {
      font-family: ' Quicksand', 'Times new roman', Times, serif;
      background-color: #333;
@@ -130,14 +130,18 @@
      font-style: normal;
      padding-left: 208px;
  }
- 
+
+ .header-information {
+     height: 150px;
+ }
+
  .header-information h2 {
      display: flex;
      font-size: 36px;
      font-weight: 300;
      padding-top: 18px;
  }
- 
+
  @media screen and (max-width: 600px) {
      .header-information {
          width: 970px;
@@ -145,47 +149,60 @@
          font-size: 24px;
      }
  }
- 
+
  .header-information h1 {
      display: flex;
      justify-content: center;
+     align-content: center;
+     margin-top: -40px;
  }
  /* logo */
- 
+
  .logo {
      display: flex;
-     background: url('../../img/logo.png') no-repeat left center;
-     margin-top: -39px;
-     margin-left: 100px;
-     width: 10%;
-     height: 290px;
-     background-size: 190px;
+     background: url('../../img/logo_mitropolia_ardealului_footer.png') no-repeat;
+     margin-left: 700px;
+     margin-top: -70px;
+     width: 160px;
+     height: 140px;
      align-content: flex-start;
  }
  /* bar-top-menu  */
- 
- .top-buttons {
+
+ footer .top-buttons {
      display: flex;
      justify-content: center;
      align-content: flex-start;
      flex-direction: row;
  }
- 
+
  .dropdown-menu {
      display: flex;
-     justify-content: space-between;
-     flex-direction: row;
-     width: 1200px;
+     width: 300px;
  }
- 
+
  .top-buttons a {
      margin-left: 50px;
      display: flex;
-     height: 59px;
+     height: 49px;
+     margin-right: 100px;
  }
- 
- .dropdown-menu {
-     display: flex;
-     height: 59px;
-     float: right;
+
+ .top-buttons .dropdown button {
+     margin-top: 23px;
+     height: 49px;
+     margin-right: 160px;
  }
+
+ .top-buttons nav {
+     width: 950px;
+ }
+
+ .dropdown-menu a {
+     padding-right: -50px;
+ }
+
+ .top-buttons {
+     background-color: lightcoral;
+ }
+ /* burger */
