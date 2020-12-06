@@ -216,7 +216,7 @@
     text-decoration: none;
     color: black;
     display: block;
-    transition: 0.8s;
+    /* transition: 0.8s; */
     border-radius: 200px;
 }
 
