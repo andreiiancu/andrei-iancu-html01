@@ -1,6 +1,6 @@
 const h1 = document.getElementsByTagName('h1')[0];
 const ul = document.getElementsByTagName('ul')[0];
-const breakPoint = 2900;
+const breakPoint = 900;
 
 const clickHandler = () => {
   const displayValue = getComputedStyle(ul).display;
