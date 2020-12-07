@@ -114,7 +114,7 @@
 
 .header-information {
     font-family: ' Quicksand', 'Times new roman', Times, serif;
-    background-color:#333;
+    background-color:black;
     text-decoration: antiquewhite;
     color: white;
     margin-top: 0px;
@@ -122,19 +122,19 @@
     line-height: 24px;
     font-weight: 300;
     font-style: normal;
-    padding-left: 208;
-
-}
-
-.header-information {
+    padding-left: 108;
     height: 140px;
     padding-top: 1px;
+    justify-content: center;
+
 }
+
+
 
 
 
 @media screen  and (max-width:1200px) {
-    .header-information {
+    .header-information  {
         width: 100%;
         height: 150px;
         background-color: darkslateblue;
@@ -142,25 +142,35 @@
     }
 }
 /* and (min-width: 120px) */
-@media screen   and  (max-width:217x) {
-    .logo-top h1{
+@media screen   and  (max-width:517x) {
+    .header-information .title{
         width: 100%;
         height: 150px;
         color: red;
     }
+
+
 }
 
-.header-information h1 {
+
+
+.header-information h2 {
     display: flex;
     position: relative;
     justify-content: center;
     align-content: center;
     margin-top: 36px;
-    margin-right: 190px;
-    margin-left: 100px;
+    margin-right: 60px;
+    margin-left: 60px;
     font-size: 38px;
     padding: auto;
     color: #fff;
+}
+
+.logo p img {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -10px;
 }
 
 .logo-top .title {
@@ -176,16 +186,17 @@
     }
 }
 
-.title {
-    display: flex;
-}
+
 
 .logo {
     display: flex;
+    flex-direction: row;
     width: 100%;
     height: 100%;
-    margin-top: -10px;
+    margin-top: 10px;
     padding: 0 auto 0 auto;
+    justify-content: center;
+
 }
 
 @media screen and (min-width:  323px) and (max-width: 1492px)  {
@@ -202,43 +213,20 @@
         padding: 0 -900px 0 -600px;
     }
 }
-#buttons li {
-    float: left;
-    list-style: none;
-    text-align: center;
-    background-color: transparent;
-    margin-right: 30px;
-    width: 150px;
-    line-height: 60px;
-}
 
-#buttons li a {
-    text-decoration: none;
-    color: black;
-    display: block;
-    /* transition: 0.8s; */
-    border-radius: 200px;
-}
-
-#buttons li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background-color: rgb(255, 122, 122);
-    border-radius:280px
-}
 
 .logo-protopopiat  img {
-    width: 150px;
+    width: 50px;
     background-image: repeating-linear-gradient();
-    height:150px;
+    height:50px;
     margin-top: -0px;
     margin-left: 100px;
     border-radius: 80px;
 }
 
 .logo-protopopiat img {
-    width: 12em;
-    height: 12em;
+    width: 6em;
+    height: 6em;
     margin-top: 15px;
     animation: bounceIn 0.6s;
     transform: rotate(0deg) scale(1) translateZ(0);
@@ -250,7 +238,7 @@
 .logo-protopopiat :hover {
     background-color: #e76853;
 
-    transform: rotate(360deg) scale(1.4);
+    transform: rotate(360deg) scale(2.4);
 }
 
 @keyframes bounceIn {
@@ -281,22 +269,25 @@
     display: flex;
 
     justify-content: space-between;
-    background: black;
+    background: #333;
     flex-direction: row;
 
     /* justify-content: space-between; */
 }
 
-.top-menu-buttons h1  {
+.top-menu-buttons h1   {
     display: flex;
-    font-size: 50px;
-    margin-top: 60px;
+    font-size: 40px;
+    margin-top: 30px;
     color: #FFFFFF;
 }
 
+
+
+
 .top-menu-buttons  ul {
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -317,9 +308,9 @@
     float: left;
     list-style: none;
     text-align: center;
-    background-color: #000000;
+    background-color: #333;
     margin-right: 30px;
-    width: 150px;
+    width: 130px;
     font-size: 23px;
     line-height: 60px;
 }
@@ -328,9 +319,11 @@
     text-decoration: none;
     color: #FFFFFF;
     display: block;
+    transition: 0.5s;
 }
 .top-menu-buttons li :hover {
     text-decoration: none;
-    color: #000000;
-    background-color: #33B5E5;
+    color: #FFFFFF;
+    background-color: red;
+    border-radius: 50px;
 }
