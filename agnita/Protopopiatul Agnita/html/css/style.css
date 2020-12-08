@@ -214,6 +214,12 @@
     }
 }
 
+.logo-prot {
+    display: flex;
+    position: relative;
+    background-color: lightblue;
+    justify-content: center;
+}
 
 .logo-protopopiat  img {
     width: 50px;
@@ -225,20 +231,21 @@
 }
 
 .logo-protopopiat img {
-    width: 6em;
-    height: 6em;
-    margin-top: 15px;
+    width: 4em;
+    height: 4em;
+    margin-top: 5px;
+    margin-left: 90px;
     animation: bounceIn 0.6s;
     transform: rotate(0deg) scale(1) translateZ(0);
     transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
-    cursor: pointer;
+    cursor: crosshair;
     transition: 1s;
 }
 
 .logo-protopopiat :hover {
     background-color: #e76853;
 
-    transform: rotate(360deg) scale(2.4);
+    transform: rotate(360deg) scale(3.8);
 }
 
 @keyframes bounceIn {
@@ -265,65 +272,127 @@
 
 
 
-.top-menu-buttons  {
-    display: flex;
+.top-menu {
+    display: block;
+    margin-top: -10px;
+    height: 180px;
+    justify-content: space-between;
+    background: #333;
+    flex-direction: row;
+}
 
+/* .top-menu-buttons  {
+    display: flex;
     justify-content: space-between;
     background: #333;
     flex-direction: row;
 
     /* justify-content: space-between; */
-}
+    /* }  */
 
-.top-menu-buttons h1   {
-    display: flex;
-    font-size: 40px;
-    margin-top: 30px;
-    color: #FFFFFF;
-}
-
-
-
-
-.top-menu-buttons  ul {
-    display: flex;
-    margin-top: 20px;
-}
+    .top-menu h1   {
+        display: flex;
+        position: fixed;
+        font-size: 40px;
+        margin-top: 30px;
+        color: #FFFFFF;
+        margin-left: 150px ;
+    }
 
 
 
 
-.top-menu-buttons ul {
-    display: flex;
-    list-style: none;
+    .top-menu  ul {
+        display: fixed;
+        margin-top: 20px;
+        padding-left: 200px;
+        /* margin-left: -200px; */
+    }
 
-}
 
-.top-menu-buttons a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
 
-.top-menu-buttons li {
-    float: left;
-    list-style: none;
-    text-align: center;
-    background-color: #333;
-    margin-right: 30px;
-    width: 130px;
-    font-size: 23px;
-    line-height: 60px;
-}
 
-.top-menu-buttons  li a {
-    text-decoration: none;
-    color: #FFFFFF;
-    display: block;
-    transition: 0.5s;
-}
-.top-menu-buttons li :hover {
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color: red;
-    border-radius: 50px;
-}
+    .top-menu ul {
+        display: flex;
+        list-style: none;
+
+    }
+
+
+    .top-menu a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .top-menu li {
+        float: left;
+        list-style: none;
+        text-align: center;
+        background-color: #333;
+        margin-right: 100px;
+        width: 150px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+
+
+    .top-menu  .nav-pills  {
+        text-decoration: none;
+        color: #FFFFFF;
+        display: block;
+        transition: 0.5s;
+    }
+    .top-menu .nav-pills :hover {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: coral;
+        border-radius: 100px;
+
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: transparent;
+        color: white;
+        padding: 16px;
+        border: none;
+        font-size: 23px;
+        line-height: 26px;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        /* position: relative;
+        display: inline-block; */
+        display: flex;
+        margin-top: 6px;
+        /* margin-right: 700px; */
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 140px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    * Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color:coral;
+        border-radius: 100px;}
