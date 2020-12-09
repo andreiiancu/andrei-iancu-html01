@@ -115,17 +115,10 @@
 .header-information {
     font-family: ' Quicksand', 'Times new roman', Times, serif;
     background-color:black;
-    text-decoration: antiquewhite;
     color: white;
     margin-top: 0px;
-    height: 120px;
-    line-height: 24px;
-    font-weight: 300;
-    font-style: normal;
-    padding-left: 108;
     height: 140px;
-    padding-top: 1px;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -136,17 +129,17 @@
 @media screen  and (max-width:1200px) {
     .header-information  {
         width: 100%;
-        height: 150px;
+        height: 200px;
         background-color: darkslateblue;
-        color: red;
+        color: white;
+        padding-top: 10px;
     }
 }
 /* and (min-width: 120px) */
-@media screen   and  (max-width:517x) {
+@media screen   and  (max-width:217x) {
     .header-information .title{
-        width: 100%;
-        height: 150px;
-        color: red;
+        /* width: 100%; */
+        /* height: 150px; */
     }
 
 
@@ -157,247 +150,158 @@
 .header-information h2 {
     display: flex;
     position: relative;
-    justify-content: center;
-    align-content: center;
-    margin-top: 36px;
-    margin-right: 60px;
-    margin-left: 60px;
-    font-size: 38px;
-    padding: auto;
-    color: #fff;
+    /* justify-content: center; */
+    margin-top: -110px;
+    margin-left: 140px;
+
 }
 
-.logo p img {
+.logo-arh p img {
     display: flex;
-    margin-left: 50px;
-    margin-top: -10px;
 }
 
-.logo-top .title {
+.title {
     display: flex;
     margin-left: -70px;
+
 
 }
 
 @media screen and (min-width:  223px) and (max-width: 616px)  {
-    .logo  img  {
+    .logo-arh p   {
         display: flex;
         padding-left: -300px;
+
     }
 }
 
 
 
-.logo {
+.logo-arh {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100%;
     margin-top: 10px;
     padding: 0 auto 0 auto;
     justify-content: center;
 
 }
 
-@media screen and (min-width:  323px) and (max-width: 1492px)  {
-    .logo-top img   {
-        display: flex;
-        padding-left: -300px;
-        padding: 0 auto 0 auto;
-    }
-}
-
-@media screen and (max-width:  617px)  {
-    .logo-top img  {
+@media screen and (max-width:  217px)  {
+    .header-information .logo-arh  img {
         display: none;
-        padding: 0 -900px 0 -600px;
     }
 }
 
-.logo-prot {
-    display: flex;
+
+.topnav {
+    overflow: hidden;
+    background: url('../../img/IMG_2336.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
-    background-color: lightblue;
-    justify-content: center;
+    height: 400px;
+    enable-background:  ;
 }
-
-.logo-protopopiat  img {
-    width: 50px;
-    background-image: repeating-linear-gradient();
-    height:50px;
-    margin-top: -0px;
-    margin-left: 100px;
-    border-radius: 80px;
-}
-
-.logo-protopopiat img {
-    width: 4em;
-    height: 4em;
-    margin-top: 5px;
-    margin-left: 90px;
-    animation: bounceIn 0.6s;
-    transform: rotate(0deg) scale(1) translateZ(0);
-    transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
-    cursor: crosshair;
-    transition: 1s;
-}
-
-.logo-protopopiat :hover {
-    background-color: #e76853;
-
-    transform: rotate(360deg) scale(3.8);
-}
-
-@keyframes bounceIn {
-    0% {
-        opacity: 1;
-        transform: scale(.3);
-    }
-
-    50% {
-        opacity: 1;
-        transform: scale(1.05);
-    }
-
-    70% {
-        opacity: 1;
-        transform: scale(.9);
-    }
-
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-
 /*
-.top-menu {
-    display: flex;
-    margin-top: -10px;
-    height: 180px;
-    justify-content: space-between;
-    background: #333;
-    flex-direction: row;
+.myLinks .buttons {
+    display: block;
 } */
 
-/* .top-menu-buttons  {
-    display: flex;
-    justify-content: space-between;
-    background: #333;
-    flex-direction: row;
+.topnav #myLinks {
+    display: none;
 
-    /* justify-content: space-between; */
-    /* }  */
+}
 
-    .top-menu h1   {
-        display: flex;
-        position: fixed;
-        font-size: 40px;
-        margin-top: 30px;
-        color: #FFFFFF;
-        margin-left: 150px ;
-    }
+
+.topnav a.icon .fa-bars {
+    float: right;
+    display: fixed;
+    margin-top: 18px;
+    margin-right: 30px;
+    /* width: 50px; */
+    font-size: 30px;
+    color: red;
+}
 
 
 
 
-    .top-menu  ul {
-        display: fixed;
-        margin-top: 20px;
-        padding-left: 200px;
-        /* margin-left: -200px; */
-    }
 
 
+#buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: transparent;
+    margin-right: 10px;
+    width: 150px;
+    line-height: 60px;;
+}
+
+#buttons li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+}
+
+#buttons li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#buttons li a:hover {
+    text-decoration: none;
+    font-style: oblique;
+    color: #000000;
+    background-color: lightcoral;
+    border-radius: 50px;
+}
+
+.navbar-brand img {
+    margin-top: auto;
+
+    background: none;
+    width: 1.5em;
+    height: 1.5em;
+    transform: rotate(0deg) scale(1) translateZ(0);
+    transition: all 0.6s cubic-bezier(.9,1.8,.79,.79);
+    cursor: pointer;
+    border-radius: 100px;
+    border: 0.1px solid blue;
+    border-bottom: red solid 0.1px;
+    border-top: yellow solid 0.1px
+}
+
+.navbar-brand img:hover {
+    transform: rotate(360deg) scale(3.2);
+}
 
 
-    .top-menu ul {
-        display: flex;
-        list-style: none;
-
-    }
-
-    /*
-    .top-menu a {
-        text-decoration: none;
-        color: #FFFFFF;
-    } */
-
-    /* .top-menu li {
-        float: left;
-        list-style: none;
-        text-align: center;
-        background-color: #333;
-        margin-right: 100px;
-        width: 150px;
-        font-size: 23px;
-        line-height: 38px;
-    }
-    */
-
-
-    /* .top-menu  .nav-pills  {
-        text-decoration: none;
-        color: #FFFFFF;
-        display: block;
-        transition: 0.5s;
-    } */
-    /* .top-menu .nav-pills :hover {
-        text-decoration: none;
-        color: #FFFFFF;
-        background-color: coral;
-        border-radius: 100px; */
-
-
-        /*
-        .menutop {
-            width:2900px;
-        } */
-
-        /* Dropdown Button */
-        /* .dropbtn {
-            background-color: #333;
-
-            color: white;
-            padding: 16px;
-            border: none;
-            font-size: 23px;
-            line-height: 26px;
-        } */
-
-        /* The container <div> - needed to position the dropdown content */
-        .dropdown {
-            /* position: relative;
-            display: inline-block; */
-            display: flex;
-            margin-top: 6px;
-            /* margin-right: 700px; */
-        }
-
-        /* Dropdown Content (Hidden by Default) */
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f1f1f1;
-            min-width: 140px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-        /* Links inside the dropdown */
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-        * Change color of dropdown links on hover */
-        .dropdown-content a:hover {background-color: #ddd;}
-
-        /* Show the dropdown menu on hover */
-        .dropdown:hover .dropdown-content {display: block;}
-
-        /* Change the background color of the dropdown button when the dropdown content is shown */
-        .dropdown:hover .dropbtn {background-color:coral;
-            border-radius: 100px;}
+.navbar-brand {
+    background-color: rgba(255, 205, 255, 0.178);
+    animation: showBottomText 0.1s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    margin-top: 6px;
+    transform: translate(0, -100%);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    border-radius: 20px;
+}
+@keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showTopText {
+    0% { transform: translate3d(0, 100%, 0); }
+    40%, 60% { transform: translate3d(0, 50%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
