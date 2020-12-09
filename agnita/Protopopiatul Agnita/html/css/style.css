@@ -8,118 +8,119 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import '../../bootstrap-4.5.3-dist/css/';
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-Bold.woff2') format('woff2'), url('/fonts/Roboto-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Bold.woff2') format('woff2'), url('/fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-Regular.woff2') format('woff2'), url('/fonts/Roboto-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.woff2') format('woff2'), url('/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-BoldItalic.woff2') format('woff2'), url('/fonts/Roboto-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-BoldItalic.woff2') format('woff2'), url('/fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-Thin.woff2') format('woff2'), url('/fonts/Roboto-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Thin.woff2') format('woff2'), url('/fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-Light.woff2') format('woff2'), url('/fonts/Roboto-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Light.woff2') format('woff2'), url('/fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-Black.woff2') format('woff2'), url('/fonts/Roboto-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Black.woff2') format('woff2'), url('/fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-BlackItalic.woff2') format('woff2'), url('/fonts/Roboto-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-BlackItalic.woff2') format('woff2'), url('/fonts/Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-MediumItalic.woff2') format('woff2'), url('/fonts/Roboto-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-MediumItalic.woff2') format('woff2'), url('/fonts/Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-Italic.woff2') format('woff2'), url('/fonts/Roboto-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Italic.woff2') format('woff2'), url('/fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-ThinItalic.woff2') format('woff2'), url('/fonts/Roboto-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-ThinItalic.woff2') format('woff2'), url('/fonts/Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-Medium.woff2') format('woff2'), url('/fonts/Roboto-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Medium.woff2') format('woff2'), url('/fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-LightItalic.woff2') format('woff2'), url('/fonts/Roboto-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-LightItalic.woff2') format('woff2'), url('/fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 
 
 .container {
-
-    width: 100%;
-    max-width: 1290px;
-    margin: 0 auto;
+  
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
 }
 
 .header-information {
-    font-family: ' Quicksand', 'Times new roman', Times, serif;
-    background-color:black;
-    color: white;
-    margin-top: 0px;
-    height: 140px;
-    justify-content: space-around;
-
+  font-family: ' Quicksand', 'Times new roman', Times, serif;
+  background-color:black;
+  color: white;
+  margin-top: -2px;
+  padding-top: 1px;
+  height: 140px;
+  justify-content: space-around;
+  
 }
 
 
@@ -127,181 +128,210 @@
 
 
 @media screen  and (max-width:1200px) {
-    .header-information  {
-        width: 100%;
-        height: 200px;
-        background-color: darkslateblue;
-        color: white;
-        padding-top: 10px;
-    }
+  .header-information  {
+    width: 100%;
+    height: 200px;
+    background-color: darkslateblue;
+    color: white;
+    padding-top: 10px;
+  }
 }
 /* and (min-width: 120px) */
 @media screen   and  (max-width:217x) {
-    .header-information .title{
-        /* width: 100%; */
-        /* height: 150px; */
-    }
-
-
+  .header-information .title{
+    /* width: 100%; */
+    /* height: 150px; */
+  }
+  
+  
 }
 
 
 
 .header-information h2 {
-    display: flex;
-    position: relative;
-    /* justify-content: center; */
-    margin-top: -110px;
-    margin-left: 140px;
-
+  display: flex;
+  position: relative;
+  /* justify-content: center; */
+  margin-top: -110px;
+  margin-left: 140px;
+  
 }
 
 .logo-arh p img {
-    display: flex;
+  display: flex;
 }
 
 .title {
-    display: flex;
-    margin-left: -70px;
-
-
+  display: flex;
+  margin-left: -70px;
+  
+  
 }
 
 @media screen and (min-width:  223px) and (max-width: 616px)  {
-    .logo-arh p   {
-        display: flex;
-        padding-left: -300px;
-
-    }
+  .logo-arh p   {
+    display: flex;
+    padding-left: -300px;
+    
+  }
 }
 
 
 
 .logo-arh {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 10px;
-    padding: 0 auto 0 auto;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: -2px;
+  padding: 0 auto 0 auto;
+  justify-content: center;
+  
 }
 
 @media screen and (max-width:  217px)  {
-    .header-information .logo-arh  img {
-        display: none;
-    }
+  .header-information .logo-arh  img {
+    display: none;
+  }
 }
 
 
 .topnav {
-    overflow: hidden;
-    background: url('../../img/IMG_2336.jpg') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-    height: 400px;
-    enable-background:  ;
+
+  overflow: hidden;
+  background: url('../../img/fresca_arnota_-_foto_silviu_cluci_wm_7831.jpg') no-repeat center center rgba(0, 47, 255, 0.692);
+  -webkit-background-size: cover;
+  background-size:  cover  ;
+  background-position: top ;
+  height: 550px;
 }
+
+
+
+
 /*
 .myLinks .buttons {
-    display: block;
+  display: block;
 } */
 
 .topnav #myLinks {
-    display: none;
-
+  display: none;
+  
 }
 
 
 .topnav a.icon .fa-bars {
-    float: right;
-    display: fixed;
-    margin-top: 18px;
-    margin-right: 30px;
-    /* width: 50px; */
-    font-size: 30px;
-    color: red;
+  float: right;
+  display: fixed;
+  margin-top: 18px;
+  margin-right: 30px;
+  /* width: 50px; */
+  font-size: 30px;
+  color: red;
 }
 
 
 
+
+
+/* width: 2190px; */
 
 
 
 #buttons li {
-    float: left;
-    list-style: none;
-    text-align: center;
-    background-color: transparent;
-    margin-right: 10px;
-    width: 150px;
-    line-height: 60px;;
+  float: left;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+  width: 150px;
+  line-height: 60px;;
+
+
+  background: #e3403a;
+  border: 1px solid #da251f;
+  box-shadow: 0px 2px 0 #d6251f, 2px 4px 6px #e02a24;
+  font-weight: 900;
+  letter-spacing: 1px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+
 }
 
-#buttons li a:hover {
-    text-decoration: none;
-    color: #000000;
-    background-color: #33B5E5;
-}
 
 #buttons li a {
-    text-decoration: none;
-    color: black;
-    display: block;
+  text-decoration: none;
+  color: white;
+  display: block;
 }
 
 #buttons li a:hover {
-    text-decoration: none;
-    font-style: oblique;
-    color: #000000;
-    background-color: lightcoral;
-    border-radius: 50px;
+  background-color:  white;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.87);
+  color: #ec817d;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 black;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+  height: 50px;
+
+
 }
 
 .navbar-brand img {
-    margin-top: auto;
-
-    background: none;
-    width: 1.5em;
-    height: 1.5em;
-    transform: rotate(0deg) scale(1) translateZ(0);
-    transition: all 0.6s cubic-bezier(.9,1.8,.79,.79);
-    cursor: pointer;
-    border-radius: 100px;
-    border: 0.1px solid blue;
-    border-bottom: red solid 0.1px;
-    border-top: yellow solid 0.1px
+  margin-top: auto;
+  
+  background: none;
+  width: 1.5em;
+  height: 1.5em;
+  transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.6s cubic-bezier(.9,1.8,.79,.79);
+  cursor: pointer;
+  border-radius: 100px;
+  border: 0.1px solid blue;
+  border-bottom: red solid 0.1px;
+  border-top: yellow solid 0.1px
 }
 
 .navbar-brand img:hover {
-    transform: rotate(360deg) scale(3.2);
+  transform: rotate(360deg) scale(3.2);
 }
 
 
 .navbar-brand {
-    background-color: rgba(255, 205, 255, 0.178);
-    animation: showBottomText 0.1s;
-    animation-delay: 1.75s;
-    animation-fill-mode: forwards;
-    margin-top: 6px;
-    transform: translate(0, -100%);
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-    border-radius: 20px;
+  background-color: rgba(255, 205, 255, 0.178);
+  animation: showBottomText 0.1s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  margin-top: 6px;
+  transform: translate(0, -100%);
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  border-radius: 20px;
 }
 @keyframes showBottomText {
-    0% { transform: translate3d(0, -100%, 0); }
-    100% { transform: translate3d(0, 0, 0); }
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
 }
 @keyframes showTopText {
-    0% { transform: translate3d(0, 100%, 0); }
-    40%, 60% { transform: translate3d(0, 50%, 0); }
-    100% { transform: translate3d(0, 0, 0); }
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
 }
 @keyframes showBottomText {
-    0% { transform: translate3d(0, -100%, 0); }
-    100% { transform: translate3d(0, 0, 0); }
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+#buttons .navbar-brand {
+  background-color:  black;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.87);
+  color: #ec817d;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 black;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+
+#buttons li{
+  height: 50px
 }
