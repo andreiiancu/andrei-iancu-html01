@@ -488,7 +488,8 @@
   float: left;
   list-style: none;
   text-align: center;
-  margin-right: 10px;
+  margin-left: -6px;
+  margin-right: 5px;
   width: 150px;
   line-height: 60px;;
 
