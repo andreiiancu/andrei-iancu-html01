@@ -349,7 +349,7 @@
 
 
 .container {
-  
+
   width: 100%;
   max-width: 1290px;
   margin: 0 auto;
@@ -357,15 +357,16 @@
 @media (min-width: 768px) {
   .cont {
     max-width: 1284px; } }
-    
+
     .header-information {
       font-family: ' Quicksand', 'Times new roman', Times, serif;
-      background-color:black;
+      background-color:#333;
       color: white;
       margin-top: -2px;
       padding-top: 1px;
       height: 140px;
       justify-content: space-around;
+      opacity: 1;
 
     }
 
@@ -452,8 +453,8 @@
       height: 400px;
       background-size: cover;
       background-position: center;
-      border-radius: 10px;
-      box-shadow: 0px 2px 0 white, 2px 4px 6px #e02a24;
+      border-radius: 0px;
+      border-bottom: 1px black solid;
     }
     @media (max-width: 768px) {
       .topnav {
@@ -556,7 +557,7 @@
         {
           background: url('../../img/567a5476-fe0f-45dd-afcc-6f44ee763a1a.jpg') no-repeat center center lightgray;
           background-size: auto 100%;
-          height: 400px;
+          height: 490px;
           opacity: 0.9;
           /* background: url('../../img/fresca_arnota_-_foto_silviu_cluci_wm_7831.jpg') no-repeat center center; */
           /* height: 400px;
@@ -660,3 +661,45 @@
         #buttons li{
           height: 50px
         }
+
+
+        /* content-main */
+        .catalog-preview-cont h1  {
+          display: flex;
+          padding-top: 220px;
+          align-content: center;
+          margin: 0 -64px ;
+
+        }
+
+        .top-menu {
+          border-bottom: 4px black solid;
+        }
+
+        .content-main section h1 p{
+
+        }
+
+
+
+        @media   (min-width: 768px) {
+          .content-main  .product-tile {
+            background-color: red;
+            font-family: cursive;
+          }
+        }
+
+        .product-tile a {
+          display: flex;
+          justify-content: center;
+        }
+
+        .content-main h1 {
+          text-transform: uppercase;
+          color: #ff6b6b;
+          font-size: 24px;
+          font-weight: 500; }
+
+          .product-tile {
+            border-right:  10px white solid;
+          }
