@@ -356,7 +356,15 @@ body {
   width: 100%;
   max-width: 1290px;
   margin: 0 ;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; background-color:#FFF; color: #333333
 }
+
+
+
+
+
+
 @media (min-width: 768px) {
   .cont {
     max-width: 1284px; } }
@@ -670,28 +678,25 @@ body {
           height: 50px
         }
 
+
+        /* content-main */
         .wraper {
           display: grid;
           grid-template-columns: repeat(3, 3fr);
           grid-auto-rows: 333px;
-
         }
 
-        .box1 {
-          grid-column-start: 1;
-          background-color: #d9480f;
-          grid-column-end: 3;
-          grid-row-start: 1;
-          grid-row-end: 3;
-        }
+
+
 
         .box2 {
-          background-color: red;
+          background-color: transparent;
           grid-column-start: 1;
           grid-column-end: 3;
           grid-row-start: 4;
           grid-row-end:2 ;
           margin-top: 220px;
+          margin-bottom: 300px;
         }
         .box3 {
           background-color: green;
@@ -700,6 +705,7 @@ body {
           grid-row-start: 4;
           grid-row-end:5 ;
           margin-left: -507px;
+          margin-top: 100px;
         }
 
         .box4 {
@@ -710,51 +716,113 @@ body {
           grid-row-end: 5;
           margin-left: -507px;
           /* margin-top: 50px; */
-
+          
         }
 
-        .box5 {
-          background-color: black;
+        .right-column {
+          background-color: transparent;
           grid-column-end: 4;
           grid-row-start: 1;
           grid-row-end: 5;
-          height: 1000px;
+          height: 1099px;
         }
         * {box-sizing: border-box;}
 
+        .product-tile h2 {
+          display: flex;
+          justify-content: center;
+          margin-left: 60px;
+          color: black;
+          font-family: cursive;
+
+        }
+
+        .the-article img {
+          display: flex;
+          justify-content: flex-end;
+          height: 330px;
+          width: 1100px;
+        }
 
 
+
+        .content-article  {
+          /* font-family:"Comic Sans MS", cursive, sans-serif; */
+          font-family: cursive;
+          font-size: larger;
+          text-indent: 50px;
+          text-align: justify ;
+        }
 
 
         .title-news {
           display: grid;
-          justify-items: center;
 
+          /* margin-left: 460px;
+          padding-left: -900px; */
+          font-family: cursive;
+          text-decoration-line: underline;
+        }
+
+        .title-news h1{
+          display: flex;
+          justify-content: center;
+          margin-left: -390px;
         }
 
 
         @media   (min-width: 768px) {
-          .content-main  .product-tile {
+          .content-{
             background-color: red;
             font-family: cursive;
           }
         }
 
-        .product-tile a {
+        /* right-column */
+        .right-column .social-icons ul{
           display: flex;
-          justify-content: center;
+          justify-content: space-between;
+          flex-direction: row;
+          list-style-type: none;
+          margin: 20px 150px 0 10px;
+          font-size: 25px;
+          background-color: transparent;
+
         }
 
-        .content-main h1 {
-          text-transform: uppercase;
-          color: #ff6b6b;
-          margin-top: 120px;
-          font-size: 24px;
-          font-weight: 50;
-          border-top: whitesmoke 2.5px solid;
-          justify-content: center;
+        .latest-news {
+          background-color: white;
+
         }
 
-        .product-tile {
-          border-right:  10px white solid;
+        .latest-news p a {
+          color: black
         }
+
+        .latest-news h3 {
+          display: flex;
+          color: black;
+          font-weight: 800;
+          border-bottom: 2px solid red;
+          border-bottom-left-radius: 8px;
+          width: 200px;
+        }
+
+        .calendar  {
+          display: flex;
+          justify-content: flex-end;
+          height: 500px;
+          padding-top: 0px;
+          font-size: 25px;
+          font-weight: 900px;
+        }
+
+        .calendar-title {
+          display:flex;
+          margin-bottom: 30px;
+          justify-content: flex-start;
+          border-bottom: 2px solid red;
+          border-bottom-left-radius: 8px;
+          width: 200px;
+          font-family: "cursive";
+          font-weight: 800px;
