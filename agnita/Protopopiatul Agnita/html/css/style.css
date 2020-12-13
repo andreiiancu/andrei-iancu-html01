@@ -836,6 +836,7 @@ body {
           /* height: 1160px; */
           background-color: transparent;
           border-top: 1px solid grey;
+          flex-direction: column;
         }
 
         .box3 .title {
@@ -843,25 +844,23 @@ body {
           justify-content:center;
           padding-top: red  solid 3px;
           margin-left: 1000px;
-          text-decoration: underline;
+          text-decoration: underline red;
           padding-top: -30px;
           font-family: cursive;
-          color: red;
-
         }
 
-        .product-tile-young h2 {
+        .box3 article{
           display: flex;
-          margin-top: -30px ;
-          width: 100%;
-          font-size: 20px;
-          color: black;
-          text-decoration: underline ;
+          justify-content: center;
+          margin-top: 100px;
         }
 
-
-
-
+        .box3 .content-article h2{
+          font-size: large;
+          font-weight: bold;
+          margin-top: -13px;
+          text-decoration: underline red;
+        }
 
         .box4 {
           display: flex;
