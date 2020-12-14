@@ -1056,18 +1056,11 @@ body {
           width: 200px;
         }
         
-        .calendar  {
-          display: flex;
-          justify-content: flex-end;
-          height: 500px;
-          padding-top: 0px;
-          font-size: 25px;
-          font-weight: 900px;
-        }
         
+
         .calendar-title {
           display:flex;
-          margin-bottom: 30px;
+          margin-bottom: 700px;
           justify-content: flex-start;
           border-bottom: 2px solid red;
           border-bottom-left-radius: 8px;
@@ -1077,7 +1070,31 @@ body {
           
         }
         
+        .the-gospel-of-God {
+          display: flex;
+          margin-top: -388px;
+          font-size: 20px;
+          flex-direction: column;
+          border: 1px red solid;
+          height: 200px;
+        }
         
+        .the-gospel-of-God  h3{
+          font-size: 20px;
+          color: red;
+          font-weight: 200;
+          text-decoration: underline blue;
+          font-family: cursive;
+        }
+
+        .the-gospel-of-God  a{
+          font-size: 18px;
+          font-weight: 200;
+          color: red;
+        }
+
+
+
         .box3 {
           display: flex;
           /* height: 1160px; */
