@@ -1207,6 +1207,8 @@ body {
           .about ul :hover {
             background-color: lightcoral;
             border-radius: 15px;
+            width: 120px;
+
           }
           /* footer .footer {
             display: flex;
