@@ -1204,7 +1204,7 @@ body {
           }
 
 
-          .list-unstyled :hover {
+          .about ul :hover {
             background-color: lightcoral;
             border-radius: 15px;
           }
