@@ -957,9 +957,7 @@ body {
         }
         
         .box4 {
-          background-color: red ;
           grid-column-start: 1;
-
           grid-column-end:4 ;
           grid-row-start: 5;
           grid-row-end:5 ;
@@ -1094,7 +1092,7 @@ body {
           padding-top: red  solid 3px;
           margin-left: 1000px;
           text-decoration: underline red;
-          padding-top: -30px;
+          padding-top: 190px;
           font-family: cursive;
         }
         
@@ -1114,9 +1112,10 @@ body {
         .box3 .activitations {
           display: flex;
           margin-top: 60px;
-          justify-content: center;
+          justify-content: space-around;
           list-style-type: none;
           margin-left: 500px;
+          padding-left: 500px;
 
 
 
@@ -1127,7 +1126,7 @@ body {
         .box3 .activitations  li {
           display: flex;
           justify-content: center;
-          margin-right: 80px;
+          margin-right: 190px;
           flex-direction: column;
           font-weight: 300;
           font-size: x-large;
@@ -1138,7 +1137,7 @@ body {
         .box3 .activitations .point {
           display: flex;
           justify-content: space-between;
-          font-size: 5px;
+          font-size: 19px;
         }
 
 
@@ -1155,7 +1154,7 @@ body {
           margin-bottom: 10px;
           justify-content: center;
           background-color: transparent;
-          margin-left: 80px;
+          margin-left: 50px;
           border-radius: 100px;
           border: red 1px solid;
           border-radius: 100px;
@@ -1169,3 +1168,43 @@ body {
             display: flex;
             margin-top: 927px;
           }
+
+          .box4  {
+            display: flex;
+            justify-content: center;
+            padding-right: -00px;
+            justify-content: space-between;
+
+          }
+
+          footer {
+            display: flex;
+            margin-right: 30px;
+          }
+          .box4 div {
+            display: flex;
+            font-size: 12px;
+            color: #FFF;
+          }
+
+          .footer-copyright a {
+            display: flex;
+            align-content: flex-end;
+          }
+
+          .box4 footer div {
+            display: flex;
+            width: 1200px;
+            padding-right: 10px;
+            padding-left: 100px;
+            font-size: 18px;
+            justify-content: center;
+            align-content: flex-end;
+
+          }
+          /* footer .footer {
+            display: flex;
+            margin-top: 820px;
+            align-content: flex-start;
+            justify-content: flex-start;
+          } */
