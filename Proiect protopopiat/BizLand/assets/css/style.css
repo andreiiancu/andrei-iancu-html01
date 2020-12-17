@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 35px 190px 0 0;
-  top: 50px;
+  margin-top: 40px;
   height: 7em;
   background-color: white;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -770,11 +770,15 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
+.featured-services {
+  background-color: #0d58ba62;
+}
+
 .featured-services .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background:white ;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -784,7 +788,7 @@ section {
 .featured-services .icon-box::before {
   content: '';
   position: absolute;
-  background: #cbe0fb;
+  background: #5b0606;
   right: 0;
   left: 0;
   bottom: 0;
@@ -794,8 +798,21 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #106eea;
+  background:#5b0606;
   top: 0;
+  border-radius: 0px;
+}
+
+.featured-services .icon-box script:hover::before {
+  background:  #5b0606;
+  top: 0;
+  border-radius: 0px;
+}
+
+.featured-services .prayers .icon-box table:hover::before {
+  background:  #5b0606;
+  top: 0;
+  color: white;
   border-radius: 0px;
 }
 
@@ -806,7 +823,7 @@ section {
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #106eea;
+  color: #5b0606;
   transition: all 0.3s ease-in-out;
 }
 
@@ -814,10 +831,12 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  color: #5b0606;
 }
 
 .featured-services .title a {
-  color: #111;
+  color:#5b0606;
+  text-decoration: underline;
 }
 
 .featured-services .description {
@@ -1048,9 +1067,9 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/LOGO\ PROTOPOPIAT\ .jpg")lightgrey no-repeat;
+  background: url("../img/LOGO\ PROTOPOPIAT\ .jpg") no-repeat;
   background-position: center center;
-  background-size: auto 100%;
+  background-size:   auto 80% ;
   position: relative;
 }
 
@@ -1061,7 +1080,8 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background:   #5b0606;
+  opacity: 0.8;
 }
 
 .testimonials .section-header {
@@ -1070,13 +1090,13 @@ section {
 
 .testimonials .testimonial-item {
   text-align: center;
-  color: #fff;
+  color: dodgerblue;
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 400px;
   /* border-radius: %; */
-  border: 1px solid red;
+  border: 1px solid white;
   margin: 0 auto;
 }
 
@@ -1084,7 +1104,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: white;
 }
 
 .testimonials .testimonial-item h4 {
