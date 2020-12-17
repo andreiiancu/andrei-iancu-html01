@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #106eea;
+    background-color: red;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: #106eea;
+    color:white;
   }
   
   .nav-menu .drop-down ul {
@@ -599,13 +599,6 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   
-  #hero .btn-watch-video:hover {
-    color: #106eea;
-  }
-  
-  #hero .btn-watch-video:hover i {
-    color: #3b8af2;
-  }
   
   @media (min-width: 1024px) {
     #hero {
