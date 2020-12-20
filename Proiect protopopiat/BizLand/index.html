@@ -8,6 +8,12 @@
     name="viewport"
   >
 
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge,chrome=1"
+  >
+  >
+
   <title>Protopopiatul Agnita</title>
   <meta
     content=""
@@ -18,6 +24,18 @@
     name="keywords"
   >
 
+  <meta
+    name="description"
+    content="carousel with javascript"
+  >
+  <meta
+    name="keywords"
+    content="carousel,javascript"
+  >
+  <meta
+    name="author"
+    content="Yifang Di"
+  >
   <!-- Favicons -->
   <!-- <link href="assets/img/favicon.png" rel="icon"> -->
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
@@ -148,20 +166,20 @@
           height="70px"
         >
 
-        <img
+        <!-- - <img
           class="img-logo-prot"
           class="mr-3"
           src="../BizLand/assets/img/LOGO PROTOPOPIAT .jpg"
           alt=""
-        >
+        >  -->
       </div>
 
-      <!-- <img
+      <img
         class="img-logo-prot"
         class="mr-3"
         src="../BizLand/assets/img/LOGO PROTOPOPIAT .jpg"
         alt=""
-      > -->
+      >
 
 
 
@@ -826,7 +844,7 @@
     <!-- ======= Counts Section ======= -->
     <section
       id="counts"
-      class="counts"
+      class="counts badge-dark"
     >
       <div
         class="container"
@@ -837,17 +855,16 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="count-box">
-              <i class="icofont-simple-smile"></i>
+              <i class="fas fa-church"></i>
               <span data-toggle="counter-up">42</span>
-              <p>Parohii</p>
+              <p class="bg-dark">Parohii</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
-              <i class="icofont-document-folder"></i>
-              <span data-toggle="counter-up">8</span>
-              <p>Filii</p>
+              <i class="fas fa-church"></i> <span data-toggle="counter-up">8</span>
+              <p class="bg-dark">Filii</p>
             </div>
           </div>
         </div>
@@ -920,22 +937,30 @@
     </section><!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
+
+
+
+
     <section
       id="services"
-      class="services"
+      class="services badge-dark"
     >
       <div
-        class="container"
+        class="container badge-success"
         data-aos="fade-up"
       >
 
-        <div class="section-title">
-          <h2>Services</h2>
-          <h3>Check our <span>Services</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-            autem.</p>
+        <div class="section-title badge-success">
+          <h2
+            button
+            class="btn bg-danger text-light "
+          >
+            <span></span>
+            </button>Activități
+          </h2>
+          <h3 class="text-light">Vezi mai jos actiunile desfășurate în <span class="text-danger">Protopopiatul
+              Agnita</span></h3>
         </div>
-
         <div class="row">
           <div
             class="col-lg-4 col-md-6 d-flex align-items-stretch"
@@ -943,9 +968,16 @@
             data-aos-delay="100"
           >
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div class="icon"> <i class="far fa-flag bg-transparent"></i>
+              </div>
+              <h4><a href=""><span>Activitatea Misionară</span> </a></h4>
+              <p class="text-danger">
+                <i> Mergând, învățațați toate neamurile, botezându-le în numele
+                  Tatălui și al
+                  Fiului
+                  și al Sfântului
+                  Duh (Mt. 28, 19-20)</i>
+              </p>
             </div>
           </div>
 
@@ -955,9 +987,10 @@
             data-aos-delay="200"
           >
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="icon"> <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <h4><a href=""><span>Activitatea Socială</span> </a></h4>
+              <p class="text-danger"> <i>Atâta valorezi ca om, câtă bucurie știi să faci în jurul tău</i></p>
             </div>
           </div>
 
@@ -967,9 +1000,11 @@
             data-aos-delay="300"
           >
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <div class="icon"><i class="fas fa-bible"></i></div>
+              <h4><a href=""><span>Activitatea Culturală</span> </a></h4>
+              <p class="text-danger"><i> În fond, cultura este sau ar trebui să fie o anumită formă de a iubi lumea
+                  și de a spera (Octavian Paler)
+                </i></p>
             </div>
           </div>
 
@@ -978,40 +1013,9 @@
             data-aos="zoom-in"
             data-aos-delay="100"
           >
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-          <div
-            class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-            data-aos="zoom-in"
-            data-aos-delay="200"
-          >
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
-
-          <div
-            class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-            data-aos="zoom-in"
-            data-aos-delay="300"
-          >
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-            </div>
           </div>
 
         </div>
-
-      </div>
     </section><!-- End Services Section -->
 
 
@@ -1028,7 +1032,8 @@
         <div class="section-title">
           <h2>Portfolio</h2>
           <h3>Check our <span>Portfolio</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
+            vitae
             autem.</p>
         </div>
 
@@ -1268,6 +1273,54 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+
+    <!--=====Carusel=====-->
+    <div class="carousel">
+      <button class="carousel_button carousel_button--left is-hidden">
+        <img
+          src="svg/back.svg"
+          alt=""
+        >
+      </button>
+      <div class="carousel_track-container">
+        <ul class="carousel_track">
+          <li class="carousel_slide current-slide">
+            <img
+              class="carousel_image"
+              src="https://images.unsplash.com/photo-1546968375-51ddab8c30f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            >
+          </li>
+          <li class="carousel_slide">
+            <img
+              class="carousel_image"
+              src="https://images.unsplash.com/photo-1546966137-fd2300df0b80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            >
+          </li>
+          <li class="carousel_slide">
+            <img
+              class="carousel_image"
+              src="https://images.unsplash.com/photo-1546896811-1ed52084f6fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            >
+          </li>
+        </ul>
+      </div>
+      <button class="carousel_button carousel_button--right">
+        <img
+          src="
+        svg/forward.svg"
+          alt=""
+        >
+      </button>
+      <div class="carousel_nav">
+        <button class="carousel_indicator current-slide"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+      </div>
+    </div>
+
     <!-- ======= Team Section ======= -->
     <section
       id="team"
@@ -1281,7 +1334,8 @@
         <div class="section-title">
           <h2>Team</h2>
           <h3>Our Hardworking <span>Team</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
+            vitae
             autem.</p>
         </div>
 
@@ -1409,7 +1463,8 @@
         <div class="section-title">
           <h2>Pricing</h2>
           <h3>Check our <span>Pricing</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
+            vitae
             autem.</p>
         </div>
 
@@ -1530,7 +1585,8 @@
         <div class="section-title">
           <h2>F.A.Q</h2>
           <h3>Frequently Asked <span>Questions</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
+            vitae
             autem.</p>
         </div>
 
@@ -1592,7 +1648,8 @@
               <p>
                 Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum
                 integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
-                Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi
+                quis
               </p>
             </div>
           </li>
@@ -1675,7 +1732,8 @@
         <div class="section-title">
           <h2>Contact</h2>
           <h3><span>Contact Us</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
+            vitae
             autem.</p>
         </div>
 
