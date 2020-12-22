@@ -13,6 +13,7 @@ body {
   color: #444444;
   background-color: #fff;
 }
+
 a {
   color: white;
 }
@@ -273,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-@media (max-width: 992px) {
+@media (max-width: 998px) {
   #header {
     padding: 15px;
     top: 0;
@@ -282,6 +283,9 @@ h1, h2, h3, h4, h5, h6 {
   #header .logo {
     font-size: 10px;
   }
+  #header img (
+  display: top: ; ;
+  )
 }
 
 /*--------------------------------------------------------------
@@ -1512,6 +1516,7 @@ section {
               padding: 10px 0;
             }
             .carousel_indicator{
+              display: none;
               border:0;
               border-radius: 50%;
               width: 15px;
@@ -1527,6 +1532,12 @@ section {
               display: none;
             }
             
+            @media (max-width: 768px) {
+              .carousel   .carousel_slide img {
+                width:100%;
+                margin-right: 200px;
+              }
+            }
             
             /*--------------------------------------------------------------
             # Team
