@@ -33,7 +33,40 @@ include_once 'headerparohii.php';
           <h3><span>Parohia Agnita I</span></h3>
        </div>
 
+       <!-- contact -->
+        <div
+          class="row "
+          data-aos="fade-up"
+          data-aos-delay="100"
+          >
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map w-100"></i>
+              <h3>Adresa</h3>
+              <p>Str. Mihai Viteazul, nr 20, Agnita, jud. Sibiu, cod poștal:555100</p>
+            </div>
+          </div>
 
+          <div class="col-lg-3 col-md-6">
+            <div class=" info-box mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email</h3>
+                <a class="text-secondary" href="mailto:">
+                protopopiatul_agnita@yahoo.com</a>
+             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Sună-ne</h3>
+
+              <a class="text-secondary" href="tel:+">
+                0269 510 325</a>
+            </div>
+            </div>
+            </div>
+            <!-- end-contact -->
 
         <div class="row">
           <div
@@ -113,8 +146,8 @@ include_once 'headerparohii.php';
           </div>
 <!--=====social-share=====-->
 
-align-items-stretch
 <!--====foto-priest=====-->
+           <br>
            <div
             class="col-lg-12  d-flex  border"
             style="
@@ -144,13 +177,14 @@ align-items-stretch
               >
                 <h5>Paroh:</h5>
 
-                <p style="margin-top: 0.3rem;">
+                <p style="margin-top: 0.1rem;">
                   <span>Pr. Naicu Mihai</span>
                 </p>
               </div>
             </div>
           </div>
           <!--=====end-foto-priest=====-->
+
 
              <br> <br>
 
