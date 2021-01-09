@@ -929,11 +929,10 @@ section {
 
 }
 
-.about .container .article-content  p::first-letter {
+/* .about .container .article-content  p::first-letter {
   font-size: 40px;
-  color:blue;
-  font-weight: bold;
-}
+  color:black;
+} */
 
 .about .container .article-content .author {
   display: flex;

@@ -299,8 +299,7 @@
 
     </div>
   </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
+    <!-- ======= Hero Section ======= -->
   <section
     id="hero"
     class="d-flex align-items-center"
