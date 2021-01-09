@@ -8,13 +8,13 @@
 </head>
 <body >
   <?php
-  include 'header.html';
+  include 'headerparohii.php';
   ?>
 
-
+<br> <br> <br>
  <section
       id="contact"
-      class="contact"
+      class="contact badge-info"
     >
       <div
         class="container"
@@ -27,35 +27,35 @@
         </div>
 
         <div
-          class="row"
+          class="row "
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="col-lg-6">
+          <div class="col-lg-6 ">
             <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Adresa noastră</h3>
-              <p>Str. Mihai Viteazul, nr 20, Agnita, jud. Sibiu, cod poștal:555100</p>
+              <i class="bx bx-map text-light"></i>
+              <h3 class="text-light">Adresa noastră</h3>
+              <p class="text-light">Str. Mihai Viteazul, nr. 21, Agnita, jud. Sibiu, cod poștal: 555100</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 ">
             <div class=" info-box mb-4 ">
-              <i class="bx bx-envelope"></i>
-              <h3>Email-ul nostru</h3>
-              <p>protopopiatul_agnita@yahoo.com</p>
-              <a href="mailto:">
+              <i class="bx bx-envelope text-light"></i>
+              <h3 class="text-light">Email-ul nostru</h3>
+              <a
+              class="text-light"
+               href="mailto:"              >
                 protopopiatul_agnita@yahoo.com</a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 ">
             <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Sună-ne</h3>
+              <i class="bx bx-phone-call text-light"></i>
+              <h3 class="text-light">Sună-ne</h3>
 
-              <p>0269510325</p>
-              <a href="tel:+">
+              <a class="text-light" href="tel:+">
                 0269 510 325</a>
             </div>
 
@@ -65,13 +65,14 @@
 
         <div
           class="row"
+          style="margin-top: 30px;"
           data-aos="fade-up"
           data-aos-delay="100"
         >
 
-          <div class="col-lg-6 ">
+          <div class="col-lg-12 ">
 
-            <iframe
+            <iframe class=" col-lg-12"
               class="mb-4 mb-lg-0"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2772.7751659941027!2d24.616641315574665!3d45.975749979110404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c8195b22544ab%3A0x5db2c07acac21867!2sProtopopiatul%20Ortodox%20Rom%C3%A2n%20Agnita!5e0!3m2!1sen!2sro!4v1608636697515!5m2!1sen!2sro"
               width="600"
@@ -84,7 +85,9 @@
             ></iframe>
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-12"
+          style="margin-left: 10px;"
+          >
             <form
               action="forms/contact.php"
               method="post"
@@ -153,13 +156,11 @@
 
       </div>
     </section><!-- End Contact Section -->
-<?php
-  echo "<div>Hello World again!</div>";
-?>
+
 
 
 <?php
-  include 'footer.html';
+  include 'footer.php';
   ?>
 </body>
 </html>

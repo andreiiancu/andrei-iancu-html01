@@ -36,6 +36,9 @@ include_once 'headerparohii.php';
        <!-- contact -->
         <div
           class="row "
+          style="
+          width: 70rem;
+          "
           data-aos="fade-up"
           data-aos-delay="100"
           >
@@ -52,17 +55,19 @@ include_once 'headerparohii.php';
               <i class="bx bx-envelope"></i>
               <h3>Email</h3>
                 <a class="text-secondary" href="mailto:">
-                protopopiatul_agnita@yahoo.com</a>
+                parohiaortodoxa_agnitaI@yahoo.com</a>
              </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Sună-ne</h3>
+          <div class="col-lg-2 col-md-4"
+          style="margin-right: -1px;"
+          >
+            <div class="info-box  mb-4 ">
+              <i class="bx bx-phone-call ml-5"></i>
+              <h3 class="ml-5">Sună-ne</h3>
 
-              <a class="text-secondary" href="tel:+">
-                0269 510 325</a>
+              <a class="text-secondary ml-5 w-60" href="tel:+">
+                02695130235</a>
             </div>
             </div>
             </div>
@@ -88,46 +93,54 @@ include_once 'headerparohii.php';
 
            <div
               id="tdi_76_b5e"
-              class="td-post-sharing tdb-block td-ps-bg td-ps-padding td-post-sharing-style2 col-lg-12"
-              style="margin-top: 0.6rem;
+              class="td-post-sharing tdb-block td-ps-bg td-ps-padding td-post-sharing-style2 col-lg-12 "
+              style="
+              margin-top: 0.6rem;
               "
             >
                             <!--=====share-social=====-->
-         <div style="
+         <div
+         style="
          display: flex;
-         justify-content:center;
-         ">
-            <div class="share-social"
-            style="justify-content: center;"
-            >
+         justify-content:space-between;
+          display:flex;
+          flex-direction:column;
+         "
+         >
+            <div class="share-social">
 
-              <div class="td-post-sharing-visible">
+              <div
+              class="td-post-sharing-visible"
+              style="
+                display: flex;
+               justify-content: space-around;
+               ">
                 <a
                   class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-facebook"
                   href="https://www.facebook.com/sharer.php?u=http://192.168.1.5:5501/Proiect%20protopopiat/BizLand/"
-                  style="transition: opacity 0.2s ease 0s; opacity: 1;"
+                  style="transition: opacity 0.2s ease 0s; opacity: 1; margin-right:1rem; "
                 >
 
-                  <div class="td-social-but-text"><i class="fab fa-facebook"></i>
+                  <div class="td-social-but-text" style="border-radius:30px;"><i class="fab fa-facebook" st></i>
                     </i>|Facebook</div>
                 </a><a
                   class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-twitter "
                   href="https://twitter.com/sharer.php?http://192.168.1.5:5501/Proiect%20protopopiat/BizLand/"
-                  style="transition: opacity 0.2s ease 0s; opacity: 1;"
+                  style="transition: opacity 0.2s ease 0s; opacity: 1; margin-right:1rem;"
                 >
-                  <div class="td-social-but-text"><i class="fab fa-twitter"></i>|Twitter</div>
+                  <div class="td-social-but-text" style="border-radius:30px;"><i class="fab fa-twitter"></i>|Twitter</div>
                 </a><a
                   class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-pinterest"
                   href="https://pinterest.com/pin/create/button/?url=http://192.168.1.5:5501/Proiect%20protopopiat/BizLand/"
-                  style="transition: opacity 0.2s ease 0s; opacity: 1;"
+                  style="transition: opacity 0.2s ease 0s; opacity: 1; margin-right:1rem;"
                 >
-                  <div class="td-social-but-text"><i class="fab fa-pinterest-p"></i>|Pinterest</div>
+                  <div class="td-social-but-text" style="border-radius:30px;"><i class="fab fa-pinterest-p"></i>|Pinterest</div>
                 </a><a
                   class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-whatsapp "
                   href="https://api.whatsapp.com/http://192.168.1.5:5501/Proiect%20protopopiat/BizLand/"
-                  style="transition: opacity 0.2s ease 0s; opacity: 1;"
+                  style="transition: opacity 0.2s ease 0s; opacity: 1; margin-right:1rem;"
                 >
-                  <div class="td-social-but-text"><i class="fab fa-whatsapp"></i>|WhatsApp</div>
+                  <div class="td-social-but-text" style="border-radius:30px;"><i class="fab fa-whatsapp"></i>|WhatsApp</div>
                 </a>
               </div>
               <div
