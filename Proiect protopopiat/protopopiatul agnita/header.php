@@ -202,7 +202,7 @@
             <ul>
               <li class="drop-down"><a href="#">Protopopiat</a>
                 <ul>
-                  <li><a href="#">Organigramă</a></li>
+                  <li><a href="organigrama.php">Organigramă</a></li>
                   <li><a href="#">Protopop</a></li>
                   <li><a href="#">Documente</a></li>
                   <li><a href="#">Comunicate</a></li>
