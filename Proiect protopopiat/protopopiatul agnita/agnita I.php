@@ -83,7 +83,7 @@ include_once 'headerparohii.php';
               src="assets/img/parohii/small cath.jpg"
               class="img-fluid"
               alt=""
-            >
+            > <span class="text-danger"><i>FOTO: Catedrala "Sfinţii Împăraţi Constantin şi Elena" Agnita</i></span>
           </div>
           <div
             class=" article-content col-lg-12 pt-4 pt-lg-0 content d-flex flex-column justify"
@@ -359,7 +359,7 @@ Str. Mihai Viteazul, nr. 20 ,Agnita, jud. Sibiu, tel. 0269513023,parohiaortodoxa
 
     <div class="carousel"
     style="
-    height: 65rem;
+    height: 45rem;
     padding-bottom: 3rem;
     "
     >
@@ -600,7 +600,21 @@ Str. Mihai Viteazul, nr. 20 ,Agnita, jud. Sibiu, tel. 0269513023,parohiaortodoxa
         <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
+<div
+class="d-flex justify-content-center "
 
+>
+  <ul class="text-danger" style= "display:flex; list-style: none; margin-top:90; align-content:center;";
+>
+    <li>
+      <span text-success>Vă mulțumim pentru timpul alocat!</span>
+    </li>
+
+    <li>
+      <span>Vă mai așteptăm cu drag!</span>
+    </li>
+  </ul>
+</div>
       </div>
     </div>
     <!--END CARUSEL-->
@@ -610,11 +624,9 @@ Str. Mihai Viteazul, nr. 20 ,Agnita, jud. Sibiu, tel. 0269513023,parohiaortodoxa
 
 
 
-
 <?php
 include_once 'footer.php';
 ?>
-
 
 </body>
 </html>
