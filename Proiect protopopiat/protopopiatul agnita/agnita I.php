@@ -4,19 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Parohia Agnita I</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body onload="incrementCount(10)">
   <?php
 include_once 'headerparohii.php';
 ?>
- <section
-      id="about"
-      class="about section-bg col-lg-12"
-      style="margin-top: 6rem;
-      background-color: transparent;
-      "
 
-    >
+ <section
+ id="about"
+ class="about section-bg col-lg-12"
+ style="
+ margin-top: 6rem;
+ background-color: transparent;
+      "
+>
+
+
       <div
         class="container"
         data-aos="fade-up"
@@ -627,6 +631,7 @@ class="d-flex justify-content-center "
 <?php
 include_once 'footer.php';
 ?>
+
 
 </body>
 </html>
