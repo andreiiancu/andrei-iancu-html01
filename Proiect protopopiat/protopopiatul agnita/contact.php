@@ -14,16 +14,23 @@
 <br> <br> <br>
  <section
       id="contact"
-      class="contact badge-info"
+      class="contact"
+
+
     >
+     <style>
+       .contact {
+         background: url("../protopopiatul agnita/assets/img/team/contact4.jpg")no-repeat center top / cover;
+       }
+     </style>
       <div
         class="container"
         data-aos="fade-up"
       >
 
         <div class="section-title">
-          <h3><span class="text-dark">Contact</span></h3>
-          <p>Pentru orice nelămurire ne poți găsi la adresa și contactele de mai jos.</p>
+          <h3><span class="text-light">Contact</span></h3>
+          <p class="text-light">Pentru orice nelămurire ne poți găsi la adresa și contactele de mai jos.</p>
         </div>
 
         <div

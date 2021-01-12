@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Parohii</title>
 </head>
 <body>
   <div class="contain">
@@ -14,8 +14,8 @@
 
       <div class="tile">
         <div class="tile__media">
-          <a href="agnita I.php">     <img  class="tile__img"  src="../protopopiatul agnita/assets/img/parohii/small cath.jpg" alt=""/>
-</a>
+             <img  class="tile__img"  src="../protopopiatul agnita/assets/img/parohii/small cath.jpg" alt=""/>
+
         </div>
         <div class="tile__details">
           <div class="tile__title">

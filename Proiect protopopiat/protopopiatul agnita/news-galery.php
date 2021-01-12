@@ -1,4 +1,5 @@
 <div class="news-carousel">
+
   <div class="progress-bar progress-bar--primary hide-on-desktop">
     <div class="progress-bar__fill"></div>
   </div>
@@ -218,7 +219,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background:  rgba(0, 0, 255, 0.158);
+  background: transparent ;rgba(0, 0, 255, 0.158)
 }
 .main-post__content {
   position: absolute;
