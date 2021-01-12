@@ -158,7 +158,13 @@
     </section><!-- End Contact Section -->
 
 
+<!-- email-validation -->
 
+<!-- email-validation -->
+
+<?php
+  include 'search.php';
+  ?>
 <?php
   include 'footer.php';
   ?>

@@ -16,7 +16,7 @@
 
         </div>
         <h1 class="main-post__title">Tabara de vara, de la Coves</h1>
-        <a class="main-post__link" href="https://bootsnipp.com/snippets/O59V8">
+        <a class="main-post__link" href="../protopopiatul agnita/article-content.php">
               <span class="main-post__link-text">Află mai multe</span>
               <svg
                 class="main-post__link-icon main-post__link-icon--arrow"
@@ -46,7 +46,7 @@
 
         </div>
         <h1 class="main-post__title">Tabara de vara, de la Coves</h1>
-        <a class="main-post__link" href="https://bootsnipp.com/snippets/O59V8">
+        <a class="main-post__link" href="../protopopiatul agnita/article-content.php">
               <span class="main-post__link-text">Află mai multe</span>
               <svg
                 class="main-post__link-icon main-post__link-icon--arrow"
@@ -76,7 +76,7 @@
 
         </div>
         <h1 class="main-post__title">Tabara de vara, de la Coves</h1>
-        <a class="main-post__link" href="https://bootsnipp.com/snippets/O59V8">
+        <a class="main-post__link" href="../protopopiatul agnita/article-content.php">
               <span class="main-post__link-text">Află mai multe</span>
               <svg
                 class="main-post__link-icon main-post__link-icon--arrow"
