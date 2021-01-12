@@ -257,10 +257,10 @@ a:hover {
 .contain {
   width: 100%;
 }
-/* .row {
+.row {
   overflow: scroll;
   width: 100%;
-} */
+}
 .row__inner {
   transition: 450ms transform;
   font-size: 0;
