@@ -1,119 +1,14 @@
-  <main id="main">
+    <main id="main">
     <!-- ======Articles section ======= -->
     <section
       id="testimonials"
       class="testimonials"
     >
-      <div
-        class="container"
-        data-aos="zoom-in"
-      >
 
-        <div class="owl-carousel testimonials-carousel">
 
-          <div class="testimonial-item">
-            <img
-              src="../protopopiatul agnita/assets/img/poze parohii/merghindeal/merghindeal.jpg"
-              class="testimonial-img"
-              alt=""
-            >
-            <h3>Evanghelia lui Hristos</h3>
-            <h4>Coves &amp; Agnita</h4>
-            <p>
-              <a
-                href="https://doxologia.ro/mesajul-de-felicitare-binecuvantare-al-patriarhului-la-65-de-ani-de-existenta-antibiotice-sa-iasi" "><i class="
-                bx
-                bxs-quote-alt-left
-                quote-icon-left"
-              ></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i></a>
-
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img
-              src="../protopopiatul agnita/assets/img/coves.jpg"
-              class="testimonial-img"
-              alt=""
-            >
-            <h3>Tabara Coves</h3>
-            <h4>Coves/Protopopiatul Agnita</h4>
-            <p>
-              <a href="https://gazetahartibaciului.ro/2018/08/30/tabara-de-vara-la-coves/"><i class="
-            bx
-            bxs-quote-alt-left
-            quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i></a>
-
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img
-              src="../protopopiatul agnita/assets/img/coves.jpg"
-              class="testimonial-img"
-              alt=""
-            >
-            <h3>Tabara Coves</h3>
-            <h4>Coves/Protopopiatul Agnita</h4>
-            <p>
-              <a href="https://gazetahartibaciului.ro/2018/08/30/tabara-de-vara-la-coves/"><i class="
-              bx
-              bxs-quote-alt-left
-              quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i></a>
-
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img
-              src="../protopopiatul agnita/assets/img/coves.jpg"
-              class="testimonial-img"
-              alt=""
-            >
-            <h3>Tabara Coves</h3>
-            <h4>Coves/Protopopiatul Agnita</h4>
-            <p>
-              <a href="https://gazetahartibaciului.ro/2018/08/30/tabara-de-vara-la-coves/"><i class="
-                bx
-                bxs-quote-alt-left
-                quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i></a>
-
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img
-              src="../protopopiatul agnita/assets/img/coves.jpg"
-              class="testimonial-img"
-              alt=""
-            >
-            <h3>Tabara Coves</h3>
-            <h4>Coves/Protopopiatul Agnita</h4>
-            <p>
-              <a href="https://gazetahartibaciului.ro/2018/08/30/tabara-de-vara-la-coves/"><i class="
-                  bx
-                  bxs-quote-alt-left
-                  quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i></a>
-
-            </p>
-          </div>
-        </div>
-      </div>
+<?php
+include 'news-galery.php';
+?>
     </section>
 
     <!-- ======= Resume-Section ======= -->
@@ -140,7 +35,7 @@
               data-aos-delay="100"
             >
               <div class="icon"><i class="far fa-newspaper"></i></div>
-              <h4 class="title"><a href="">Ultimele Știri</a></h4>
+                <h4 class="title"><a href="">Ultimele Știri</a></h4>
               <p class="description"><span>Iată ultimele noutăți:</span></p>
               <br> <br>
               <div class=" latest-news">
@@ -569,8 +464,9 @@
     <!-- ======= Parohii ======= -->
     <section
       id="team"
-      class="team section-bg"
+      class="team section-bg badge-warning"
     >
+
       <div
         class="container"
         data-aos="fade-up"
@@ -581,115 +477,12 @@
             <h2 class="btn bg-danger text-light">Parohii</h2>
           </a>
           <h3>Parohiile din <span>Protopopiatul Agnita</span></h3>
-          <p>Mai jos aveti câteva dintre parohiile Protopopiatului Agnita. <span>Click pe butonul parohii, de mai sus,
-              pentru a fi
-              direcţionat către toate </span></p>
+          <p>Mai jos aveti toate parohiile din Protopopiatul Agnita. <span>Click pe imaginea cu biserica, către care doriți să fiți direcționat.</span></p>
         </div>
+<?php
+       include 'news-mini.php';
+       ?>
 
-        <div class="row">
-
-          <div
-            class="col-lg-3 col-md-6 d-flex align-items-stretch"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="member">
-              <div class="member-img">
-                <img
-                  src="../protopopiatul agnita/assets/img/parohii/small cath.jpg"
-                  class="img-fluid"
-                  alt=""
-                >
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Parohia Agnita I</h4>
-                <span>Protopopiatul Agnita</span>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="col-lg-3 col-md-6 d-flex align-items-stretch"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="member">
-              <div class="member-img">
-                <img
-                  src="assets/img/poze parohii/merghindeal/merghindeal 3.jpg"
-                  class="img-fluid"
-                  alt=""
-                >
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Parohia Agnita II</h4>
-                <span>Protopopiatul Agnita</span>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="col-lg-3 col-md-6 d-flex align-items-stretch"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <div class="member">
-              <div class="member-img">
-                <img
-                  src="assets/img/coves.jpg"
-                  class="img-fluid"
-                  alt=""
-                >
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Parohia Agnita III</h4>
-                <span>Protopopiatul Agnita</span>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="col-lg-3 col-md-6 d-flex align-items-stretch"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <div class="member">
-              <div class="member-img">
-                <img
-                  src="assets/img/fresca_arnota_-_foto_silviu_cluci_wm_7831.jpg"
-                  class="img-fluid"
-                  alt=""
-                >
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Parohia Coves</h4>
-                <span>Protopopiatul Agnita</span>
-              </div>
-            </div>
           </div>
 
         </div>
@@ -1171,4 +964,3 @@
 
 
   </main><!-- End #main -->
-  <!-- ======= Footer ======= -->
