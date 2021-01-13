@@ -480,7 +480,7 @@ include 'news-galery.php';
           <p>Mai jos aveti toate parohiile din Protopopiatul Agnita. <span>Click pe imaginea cu biserica, către care doriți să fiți direcționat.</span></p>
         </div>
 <?php
-       include 'news-mini.php';
+       include 'parohii-section-carousel.php';
        ?>
 
           </div>
