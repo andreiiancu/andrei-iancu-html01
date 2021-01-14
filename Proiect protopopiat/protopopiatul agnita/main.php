@@ -464,7 +464,7 @@ include 'news-galery.php';
     <!-- ======= Parohii ======= -->
     <section
       id="team"
-      class="team section-bg badge-warning"
+      class="team section-bg bg-warning"
     >
 
       <div
@@ -472,12 +472,12 @@ include 'news-galery.php';
         data-aos="fade-up"
       >
 
-        <div class="section-title">
+        <div class="section-title text-light">
           <a href="">
             <h2 class="btn bg-danger text-light">Parohii</h2>
           </a>
           <h3>Parohiile din <span>Protopopiatul Agnita</span></h3>
-          <p>Mai jos aveti toate parohiile din Protopopiatul Agnita. <span>Click pe imaginea cu biserica, către care doriți să fiți direcționat.</span></p>
+          <p>Mai jos aveti toate parohiile din Protopopiatul Agnita. <span>Click pe numele parohiei, pentru a vizualiza istoricul acesteia.</span></p>
         </div>
 <?php
        include 'parohii-section-carousel.php';
