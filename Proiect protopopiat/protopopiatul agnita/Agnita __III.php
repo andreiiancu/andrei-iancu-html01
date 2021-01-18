@@ -168,7 +168,7 @@ include_once 'headerparohii.php';
     <div class="row justify-content-center">
         <div class="col-md-4 col-sm-6">
             <div class="our-team">
-                <img src="../protopopiatul agnita/assets/img/preoti/pr naicu.jpg">
+                <img src="../protopopiatul agnita/assets/img/preoti/">
                 <div class="team-content">
                     <h3 class="title">Pr Mărginean Nicolae</h3>
                     <span class="post">Doamne Ajută!</span>
@@ -345,6 +345,14 @@ include_once 'headerparohii.php';
         <i>Activităţi pastoral-misionare, culturale, editorial, filantropice, catehetice ş.a.:</i>   programul catehetic naţional “Hristos împărtăşit copiilor”; proiectul educativ naţional “Alege şcoala!”; participarea la etapa pe protopopiat a concursurilor naţionale de miniproiecte cu caracter misionar-filantropic organizate anual în întreaga Patriarhie Română; sprijinirea în măsura posibilităţilor a persoanelor vârstnice şi a celor care se confruntă cu grave probleme sociale.
         </p>
 
+        <p class="col-lg-12" style="text-indent: 1rem;">
+          <i>Surse bibliografice:</i> nu este cazul.
+       </p>
+
+        <p class="col-lg-12" style="text-indent: 1rem;">
+          <i>Datele de contact ale parohiei:</i> Pr. Nicolae Mărginean, str. Grădinilor, nr. 5, Agnita, Jud. Sibiu,  Hramul biserici: Sf. Ap.Petru şi Pavel.
+       </p>
+
 
 
 
@@ -407,7 +415,7 @@ include_once 'headerparohii.php';
           <li class="carousel_slide current-slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze parohii/Agnita II/237992c0-3669-4e30-9d09-b710a5b22615.jpg"
+              src="../protopopiatul agnita/assets/img/poze parohii/"
               alt=""
               width="90px"
             >
@@ -415,7 +423,7 @@ include_once 'headerparohii.php';
           <li class="carousel_slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze parohii/Agnita II/731e6dd5-24c0-4627-bf69-c1c8d38e57e5.jpg"
+              src="../protopopiatul agnita/assets/img/poze parohii"
               alt=""
               width="90px"
             >
@@ -423,7 +431,7 @@ include_once 'headerparohii.php';
           <li class="carousel_slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze parohii/Agnita II/800e4203-d9e4-4f2e-9df9-8f2eaed82aa6.jpg"
+              src="../protopopiatul agnita/assets/img/poze parohii"
               alt=""
               width="90px"
             >
@@ -431,7 +439,7 @@ include_once 'headerparohii.php';
           <li class="carousel_slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze parohii/Agnita II/fee29c60-11e6-48d5-8fc1-7fa4cd3bbc1c.jpg"
+              src="../protopopiatul agnita/assets/img/poze parohii"
               alt=""
               width="90px"
             >
