@@ -217,8 +217,8 @@
 
               <li class="drop-down"><a href="#">Parohii</a>
                 <ul>
-                  <li><a href="agnita I.php">Parohia Agnita I</a></li>
-                  <li><a href="#">Parohia ...</a></li>
+                  <li><a href="agnita__I.php">Parohia Agnita I</a></li>
+                  <li><a href="agnita__II.php">Parohia Agnita II</a></li>
                   <li><a href="#">Parohia ...</a></li>
                   <li><a href="#">Parohia</a></li>
                   <li><a href="#">Parohia ...</a></li>
