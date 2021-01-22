@@ -1460,18 +1460,12 @@ section {
             /* ......................................................
 
             #Carousel ........................................................*/
+
             .carousel{
               position: relative;
               height: 600px;
               width: 80%;
               margin: 0 auto;
-            }
-
-            .carousel h3 {
-              display: flex;
-              justify-content: center;
-              font-size: 32px;
-              font-weight: 700;
             }
             .carousel_image{
               width: 100%;
@@ -1479,7 +1473,7 @@ section {
               object-fit: cover;
             }
             .carousel_track-container{
-              background:  rgba(255, 0, 0, 0.664);
+              background: lightblue;
               height: 100%;
               position: relative;
               overflow: hidden;
@@ -1503,7 +1497,7 @@ section {
               position: absolute;
               top:50%;
               transform: translateY(-50%);
-              background: rgba(255, 0, 0, 0.664);
+              background: transparent;
               border: 0;
               cursor: pointer;
             }
@@ -1522,29 +1516,22 @@ section {
               padding: 10px 0;
             }
             .carousel_indicator{
-              display: none;
               border:0;
               border-radius: 50%;
               width: 15px;
               height: 15px;
-              background: red;
+              background: rgba(0,0,0,0.3);
               margin: 0 10px;
               cursor: pointer;
             }
             .carousel_indicator.current-slide{
-              background: red;
+              background: rgba(0,0,0,0.75);
             }
             .is-hidden{
               display: none;
             }
 
-            @media (max-width: 768px) {
-              .carousel   .carousel_slide img {
-                width:100%;
-                margin-right: 200px;
-              }
-            }
-
+            /* carousel */
             /*--------------------------------------------------------------
             # Team
             --------------------------------------------------------------*/
