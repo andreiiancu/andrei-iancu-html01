@@ -244,7 +244,8 @@ include_once 'headerparohii.php';
               text-indent: 4.9ch;
            "
             >
-               Ighișul Vechi, Ibișdorful-român, Ighișdorf, Ighișdorful român (în dialectul săsesc Eibesterf, în germană Wallachisch-Eibesdorf, Eibesdorf, Libesdorf, în maghiară Oláhivánfalva, Ivánfalva), este un sat în partea de est a județului Sibiu, în Podișul Târnavelor. Aparține de comuna Bârghiș.
+              Satul Marpod se situează pe Valea Hârtibaciului, la o depărtare de 32 km de reşedinţa judeţului, municipiul Sibiu; la 27 km de cel mai apropiat oraş - Agnita.
+              Numele comunei este de origine nesigură, gotică sau agatârşă. Ar proveni de la un nume de persoană, perpetuat până în sec. al XVII, când ultima familie cu acest nume se stinge, Mar - Streitos, Mähre - cal de luptă şi bodo - bieten, an-bieten = a oferi; deci, cel care oferă cal de luptă. În timp numele suferă modificări de sunete şi accent, în epoca austro-maghiară şi apoi la români din 1349 „Meyerpoth” ajungandu-se in 1839 la denumirea de Mriapod şi, ultimul, Marpodu – Marpod, cum se numeste și până în ziua de astăzi.
             </p>
 
 
@@ -262,7 +263,7 @@ include_once 'headerparohii.php';
               text-indent: 4.9ch;
            "
             >
-               Pentru prima dată localitatea este consemnată documentar în anul 1366. Menţiuni istorice ulterioare găsim în 1389, 1417, 1586, 1733.
+              Dacă până în 1867 (dualismul austro-ungar), satul era integrat administrativ în scaunul Nocrichului, iar de la această dată facea parte din Comitatul Sibiului până în 1918 - satul va aparţine, pe rând, de judeţul Sibiu până la apariţia regiunilor în 1950, când va fi cuprins în raionul Agnia, judeţul Sibiu. Astăzi este din nou în locul său firesc administrativ, începând din 1968 - anul reformei administrative.
             </p>
 
               <p class=" text-justify "
@@ -270,12 +271,16 @@ include_once 'headerparohii.php';
               text-indent: 4.9ch;
            "
             >
-              Începând cu anul 1950 localitatea a fost arondată raionului Agnita, regiunea Sibiu
+            Din punct de vedere economic, oamenii se ocupau cu agricultura, creșterea de vite dar și cu cultivarea vitei de vie. La sfârşitul secolului XIV şi XV existau puternice bresle de croitori şi cizmari, la jumătatea secolului XVI se practica şi turnătoria în cositor, iar în anul 1960 găsim meşteşugul olăritului.
             </p>
 
-
-
-
+            <p class=" text-justify "
+            style="text-align:justify;
+              text-indent: 4.9ch;
+           "
+            >
+              Din punct de vedere cultural, Marpodul a dăruit țării noastre oameni de înaltă ținută culturală, iar cel mai concludent exemplu este cel al familiei Bologa: Iacob Bologa (1817-1888) cancelist la Curtea de Apel din Tg. Mureş; Consilierul aulic Valeriu Lucian Bologa (1892-1971)profesor la Facultatea de Medicină,om de ştiinţă emerit; Lucian Bologa (1901-1957) psihopedagog, pedagog social, istoric al pedagogiei.
+            </p>
 
             <br>
             <h6 style=" text-align:justify; line-height: 1.2";>B. Istoricul bisericii parohiale</h6>
@@ -287,7 +292,15 @@ include_once 'headerparohii.php';
 
 
             <p style="text-align:justify; text-indent: 5ch;">
-               Biserica din satul Ighişul Vechi, cu hramul ,,Sfinţii Arhangheli Mihail şi Gavriil” a fost zidită în anul 1924 din piatră şi căramidă, acoperită cu ţiglă, pe baza unui plan întocmit de arhitecţii Fr. Zinz şi Georg Wachter din Agnita.
+              Apare la Marpod şi prima Biserică ortodoxă, deocamdată o mică bisericuţă din lemn. Locaşul de cult e cumpărat din satul Olteţ (Făgăraş). Bisericuţa este ridicată între anii 1811-1815. Lucrările sunt supravegheate de învăţătorul Toma losif, primul învăţător pentru românii din Marpod. Slujba religioasă a fost asigurată de preoţii din Ilimbav. În timpul săptămânii, învăţătorul împreună cu credincioşii făceau Vecernia în micul locaş. Despre ea se spune că era aşa de mică, încât de Paşti şi de Crăciun lumea stătea la ferestre, neîncăpând în Biserică.
+            </p>
+
+             <p style="text-align:justify; text-indent: 5ch;">
+                Biserica actuală din Marpod a fost zidită între anii 1830-1836, lângă biserica din lemn. Fiind o comunitate mică, circa 40 de familii, românii din Marpod se ataşează din punct de vedere bisericesc, de preoţii din Ilimbav, sat românesc. Astfel, preoţii din Ilimbav devin conducători spirituali şi pentru românii din Marpod. Între anii 1829-1849 preotul loan Sinai se ocupă şi de parohia ortodoxă Marpod. Acest preot a fost un neobosit apărător şi luptător pentru drepturile românilor sărăciţi de conducera politică existentă. Astfel sub impulsul de preot şi de familia Bologa din Marpod, românii încep construcţia unei biserici ortodoxe din piatră şi cărămidă. Lucrările propriu-zise încep în anul 1830. Fondurile necesare au fost adunate în parte de la locuitorii satului, din donaţii, precum şi din colecte strânse de la credincioşi din satele româneşti vecine: llimbav, Săsăuși.
+            </p>
+
+            <p style="text-align:justify; text-indent: 5ch;">
+              Meşterii care au lucrat la ridicarea ei au fost români din llimbav. Din păcate nu li s-a păstrat numele. Cărămida necesară a fost făcută de românii din sat. Din păcate aceasta nu era de foarte bună calitate pentru că românii din Marpod nu beneficiau de un loc propice fabricării cărămizilor. Cele mai bune locuri în acest scop fiind ocupate de saşi. Calitatea proastă a cărămizii urma să dea numeroase probleme urmaşilor.
             </p>
 
             <p class="col-lg-12 text-justify "
@@ -299,7 +312,7 @@ include_once 'headerparohii.php';
            </p>
 
             <p style="text-align:justify; text-indent: 5ch;">
-               Biserica are formă de navă cu elemente gotice, având o suprafaţă de aproximativ 80 mp.
+              construcţia bisericii este simplă, în forma de navă cu naos în formă dreptunghiulară şi altar (absidă) cu pereţii laterali drepţi şi tavan plat din scânduri şi trestie tencuit. Catapeteasma este din zid cu deschizături. Materialul folosit la constructia ei, este piatra (la fundaţie) şi cărămida, iar ca liant s-a folosit pământ galben. Acoperişul este simplu cu ţiglă solzi. Turnul este cu două etaje în formă de prismă dreptunghiulară cu acoperiş ascuţit în 8 ape, acoperit cu
             </p>
 
                     <p class="col-lg-12 text-justify "
@@ -311,12 +324,28 @@ include_once 'headerparohii.php';
            </p>
 
             <p style="text-align:justify; text-indent: 5ch;">
-              Pictura este realizată în tehnica tempera între anii 1959-1961, fiind începută de către pictorul Dumitru Buligă din Ploieşti şi terminate de către pictorul Sarvin Maniu Zamora din Sebeşel, judeţul Hunedoara. Preot paroh era Eftimie Andrei. La 28 iunie 1964 biserica a fost sfinţită de către episcopal Emilian Antal, înconjurat de un sobor de preoţi.
+               Este realizata in tehnica „all secco” sau tempera grasă, finalizându-se în proporție de 80%. Pictorul angajat pentru această lucrare este Marian Verza din Sibiu, pictor de categoria a II-a. Vechiul iconostas este din lemn pictat de pictorul Toma Sopa din Ilimbav în anul 1960. Uşile împărăteşti sunt din lemn poleite şi pictate iar uşile diaconeşti sunt tot din lemn pictate tot de Toma Sopa.
             </p>
 
-            <p class="col-lg-12"> <span class="font-italic" >Obiecte vechi de cult</span>: Nu este cazul.</p>
+            <p class="col-lg-12"> <span class="font-italic" >Obiecte vechi de cult</span>:</p>
 
-             <p class="col-lg-12"> <span class="font-italic" >Manuscrise şi cărţi vechi</span>: Nu este cazul.</p>
+             <p style="text-align:justify; text-indent: 5ch;">
+                Cel mai vechi obiect de cult este o icoană cu Sfântul Dumitru, icoană din secolul XVIII pictată pe sticlă. Tot din secolul XVIII sunt datate icoanele Botezul Domnului, Învierea Domnului. Pogorârea Duhului Sfânt. Sf.  Apostoli Petru si Pavel. Numele pictorului nu ni s-a păstrat. Toate sunt pictate pe sticlă.
+            </p>
+
+
+
+
+
+             <p class="col-lg-12"> <span class="font-italic" >Manuscrise şi cărţi vechi</span>:</p>
+
+            <p style="text-align:justify; text-indent: 5ch;">
+             Principala carte de cult, Sfânta Evanghelie este din anul 1806. Este în limba româna scrisă cu litere chirilice. Este cumpărată de dascălul Toma Iosif. Acesta a copiat mai multe cărţi religioase: Judecata ceriului, Vedeniile Sfântului Grigorie, Minunile Precestei precum şi Octoihul cel mic, carte din care slujea Vecernia, în casa sa, iar din 1811 în prima biserică, împreună cu românii din Marpod. Referitor la aceste cărţi, Iosif Toma scrie: „Preotul de la care am scris acestea le-a scris la anul 1751-popa Iancu din Săcel-De la acela am scris eu acestea, cel mai mic şi mai nemernic mult păcătos Toma Zaharia Iosif din Ungro- Vlahia”. Numeroase cărţi sunt de la mijlocul secolului al XIX- lea, în majoritate donate de consilierul Iacob Bologa: Sfânta Evanghelie (1844), tipărită la Sibiu. Molitvelnic (1849) din timpul episcopului Andrei Şaguna, tipărit la Sibiu, Mineiele lunilor: Februarie, Martie, Aprilie, Mai, Iunie, Iulie, August, Septembrie, Octombrie, Noiembrie, Decembrie.
+            </p>
+
+              <p style="text-align:justify; text-indent: 5ch;">
+              Toate aceste obiecte se păstrează la Muzeul Protopopiatului Agnita.
+            </p>
 
              <p class="col-lg-12"> <span class="font-italic" >Pomelnice şi alte înscrieri sau inscripţii:</span> Nu este cazul.</p>
 
@@ -329,7 +358,7 @@ include_once 'headerparohii.php';
            </p>
 
             <p class="col-lg-12" style=" text-align:justify; text-indent: 5ch;">
-              Alexe Popovici (1768), Eremia Constantin (1771), Popa Daniil Popovici (1780-1826), Popa Irimie Popoviciu (1812-1854), Daniil Constantinescu (1873-1908), Romul Constantinescu (1883-1949), Andrei Eftimie (1949-1962), Ioan Forsea (1962-1970), Iosif Lehene (1970-2001), Iridon Dumitru (2001-2009), Vecerzan Paul (2009-2017), Mihai Rusu (2017- prezent).
+              Primul preot care se ocupă periodic de romanii din Marpod este preotul "Niculae din Nocrich". Despre el se zice: „că oamenii aduceau pe popa Nicolae din Nocrich vara totdeauna sub paza celor 6 bărbaţi înarmaţi cu pari de frica unor saşi. Preotul este atestat la sfârşitul secolului XVIII şi începutul sec XIX.Alţi preoţi care au mai administrat această parohie sunt : loan Cândea (1812-1817), Simion Tocoae(1817-1821), Ioan Chirtop (1821-1826), loan Tocoae (1826-1829). Între ani 1829-1848 parohia e administrată de preotul loan Sinai. După el au urmat între anii 1860-1861 Aron Chirtop apoi a servit Ion Popoviciu (1861 -1862).În 26 octombrie 1862 este numit ca preot în Marpod Iacob Bologa, nepot de frate al consilierului Iacob Bologa. Acesta este primul preot născut în sat.În ziua de 14 octombrie 1895 este numit ca preot pentru Marpod Florian Bologa, fiul preotului Iacob Bologa. Acesta avea 22 de ani. Sub păstorirea lui lungă (1895-1945) s-au înfiinţat numeroase fonduri şi societăţi pentru înfrumuseţarea bisericii, precum şi un fond pentru edificarea unei noi biserici. Dupa pastorirea preotului Florian Bologa, în parohia Marpod sunt amintiţi următorii preoţi: Toader Nichifor, Octavian Stoian, Pompei Trif, Cornel Hategan, Buruiană Valer Gheorghe Bândea, Valer Stănilă, loan Fulea, Niculae Păcurar, Aurel Chirilă Constantin Pintesu. La 19 iulie 1977 este numit preot pentru parohia Marpod si filia Tichindeal , preotul Moise Rusu care se ocupa de parohie până în noiembrie 2012, când se retrage la pensie. Actualmente, preotul  Marius Munteanu, de loc din Brașov, care se ocupă de parohie până în  2020 şi actualemnte preot este Păvălaşcu Marian.
            </p>
 
           <h6 class="col-lg-12" >C. Cimitirul</h6>
@@ -339,16 +368,25 @@ include_once 'headerparohii.php';
             </p>
 
           <br>
-          <h6 style="line-height: 1.2";>D. Activități culturale și filantropice în trecut: Nu avem consemnări deosebite menţionate în documentele parohiale  </h6>
+          <h6 style="line-height: 1.2";>D. Activități culturale și filantropice în trecut:   </h6>
 
           <p class="col-lg-12" style="text-indent: 5ch;">
+               în cursul anului 2014 s-au desfășurat pelerinaje cu copii la mănăstirea Sâmbăta de Sus, cu ajutorul departamnetului social al Arhiepiscopiei Sibiului, cu credincioșii la mănăstirea Prislop, mănăstirea Nicula, catedrala din Cluj. Activități catehetice și de combatere a consumului de droguri și alcool cu copii în parteneriat cu Primăria Marpod și instituțiile responsabile.
+          </p>
+
+          <p class="col-lg-12" style="text-indent: 5ch;">
+              Pe raza parohiei funcționează azilul de bătrâni „Cornelia și Bobu”, cu care avem un protocol de colaborare, și pe baza căruia ne desfășurăm activitate din punct de vedere pastoral.
           </p>
 
           <br>
           <h6 style="line-height: 1.2";>E. Profilul actual al parohiei:</h6>
 
            <p class="col-lg-12" style="text-indent: 5ch;">
-            Numărul de credincioşi: 142.
+            În timpul părintelui Moise Rusu s-a început pictura bisericii în tehnica „all secco”, mai exact la mijlocul anului 2012, pictură care a continuat sub supravegherea noului preot și care este aproape de finalizare. De asemenea s-a schimbat întregul interior al bisericii: s-a schimbat podeaua cu scandura, și s-a pus mochetă pe toată suprafața, s-a pregătit Sfânta Masă pentru sfințire, s-au înlocuit aproape toate obiectele de cult, s-a achiziționat mobilier, stație audio, s-au turnat alei în jurul bisericii, s-a schimbat tot acoperișul cu țiglă nouă pe biserică și turn, inclusiv toată lemnăria.
+          </p>
+
+            <p class="col-lg-12" style="text-indent: 5ch;">
+            	Parohia Marpod numără 156 de familii de credincioși ortodocși. S-a construit o capelă mortuară, iar pe viitor avem în vedere  și înființarea unui centru social-filantropic, în parteneriat cu primăria Marpod.
           </p>
 
           <p class="col-lg-12 text-justify "
@@ -369,11 +407,11 @@ include_once 'headerparohii.php';
 <p style="text-indent: 5ch;">
 <ul style="list-style-type: none;">
   <li>
-     1. <i>Arhiva Parohiei </i>;
+    1. 	 Vasile Rusu, <i>Românii din Marpod</i> , editura Imago, Sibiu, 1999;
   </li>
 
    <li>
-     2.  <i>http://ro.wikipedia.</i>;
+    2. Pr. M. Păcuraru, „Politica statului ungar față de biserica românească din Transilvania în  timpul dualismului 1867-1918”, Sibiu, 1986.
   </li>
 </ul>
 </p>
@@ -434,7 +472,7 @@ include_once 'headerparohii.php';
           <li class="carousel_slide current-slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Ighisul Vechi/0647c590-1be4-49a8-b0ce-b8a54ff723c8.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Marpod/01edf06d-77bb-44b2-abf2-c08e67cfa30b.jpg"
               alt=""
               width="90px"
             >
@@ -442,7 +480,7 @@ include_once 'headerparohii.php';
           <li class="carousel_slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Ighisul Vechi/251a793a-56c8-4244-8bfb-b3c102f918d5.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Marpod/0b7acaa5-9b38-4f14-af24-a56d929d8e76.jpg"
               alt=""
               width="90px"
               style="object-fit: contain;"
@@ -451,7 +489,7 @@ include_once 'headerparohii.php';
           <li class="carousel_slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Ighisul Vechi/2e1ba450-e284-4ade-8645-2bfaec0829ad.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Marpod/0cdb3a56-67ec-4f27-a6dd-9cc97f767b39.jpg"
               alt=""
               width="90px"
               style="object-fit: contain;"
@@ -461,7 +499,7 @@ include_once 'headerparohii.php';
             <li class="carousel_slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Ighisul Vechi/568a8301-e6a7-4c0d-a920-6d136eeeef8c.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Marpod/282adb17-2d19-424e-b190-44c74e383074.jpg"
               alt=""
               width="90px"
             >
@@ -469,39 +507,9 @@ include_once 'headerparohii.php';
           <li class="carousel_slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Ighisul Vechi/6c85ce15-fed9-42ab-84cd-328c96e2e627.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Marpod/81339975-1128-4888-8ce6-2fcbccc4d79e.jpg"
               alt=""
               width="90px"
-            >
-          </li>
-            <li class="carousel_slide">
-            <img
-              class="carousel_image img-fluid"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Ighisul Vechi/b77f5274-a0d0-410e-ad82-46f5a760f654.jpg"
-              alt=""
-              width="90px"
-              style="  object-fit:scale-down;"
-            >
-          </li>
-            <li class="carousel_slide">
-            <img
-              class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Ighisul Vechi/bf06570e-251f-43eb-a98e-47dd5a314125.jpg"
-              alt=""
-              width="90px"
-              style="  object-fit:scale-down;"
-
-            >
-          </li>
-            <li class="carousel_slide">
-            <img
-              class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Ighisul Vechi/ee254cd3-e79d-434c-adc4-1de7d078b635.jpg"
-              alt=""
-              width="90px"
-              style="object-fit:contain;
-;"
-
             >
           </li>
         </ul>
@@ -520,9 +528,6 @@ include_once 'headerparohii.php';
       </button>
       <div class="carousel_nav">
         <button class="carousel_indicator current-slide"></button>
-        <button class="carousel_indicator"></button>
-        <button class="carousel_indicator"></button>
-        <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
