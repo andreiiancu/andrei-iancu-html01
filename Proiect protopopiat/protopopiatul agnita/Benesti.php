@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,7 @@
   <title>Parohia Beneşti</title>
 </head>
 <body>
+
   <?php
 include_once 'headerparohii.php';
 ?>
@@ -731,5 +733,10 @@ include_once 'headerparohii.php';
 include_once 'footer.php';
 ?>
 
+
 </body>
 </html>
+<?php
+$homepage = file_get_contents('http://www.example.com/');
+echo $homepage;
+?>

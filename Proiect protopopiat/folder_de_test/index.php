@@ -26,9 +26,13 @@ function afiseaza_pagina($paginaSelectata) {
 }
 }
 
+
 $paginaSelectata = 'agnita_1';
 afiseaza_pagina($paginaSelectata);
 
   ?>
+  <?php
+include 'contact.php';
+?>
 </body>
 </html>

@@ -19,5 +19,8 @@ $(document).ready(function(){
 <p><img src="../protopopiatul agnita/assets/img/evanghelia.jpg" alt=""></p>
 <p>This is another small paragraph.</p>
 
+
+<?php include("/home/simplefo/public_html/simplephpscripts/news-script-php/news/news.php"); ?>
+
 </body>
 </html>

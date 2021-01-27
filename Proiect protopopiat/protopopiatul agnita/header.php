@@ -165,7 +165,68 @@
 
 
       </div>
+
     </div>
+    <div class="header__search-toggle">
+                                    <div class="header__search-form">
+                                      <button class="search-toggle--open">What are you looking for?</button>
+                                      <form class="search-form-box" autocomplete="off" name="basSearch" action="/" method="get">
+                                        <input type="search" placeholder="What are you looking for?" id="search_2" class="text" name="s">
+                                        <input id="miniSearch" type="submit" class="submit" value="">
+                                      </form>
+                                    </div>
+                                    <button class="search-toggle--close"></button>
+                                    <style>
+                                    element.style {
+}
+@media (min-width: 801px)
+.header__search-toggle {
+    display: inline-block;
+}
+.header__search-toggle {
+    width: calc(100% - 440px);
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+.header__search-toggle {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mobile-menu-toggle, .header__ppchero, .header__search-toggle, .header__heroconf {
+    display: inline-block;
+    height: 100px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.subscribePop input[type=submit], body {
+    font-family: Lato, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: #575757;
+    background-color: #585858;
+}
+
+::-webkit-scrollbar-track {
+    border-width: 0;
+}
+                                    </style>
+                                  </div>
+
   </div>
 
   <!-- ======= Header ======= -->
@@ -188,6 +249,43 @@
           src="../BizLand/assets/img/LOGO PROTOPOPIAT .jpg"
           alt=""
           >  -->
+
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+          <style>
+            #myInput {
+              background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+              background-position: 10px 12px; /* Position the search icon */
+              background-repeat: no-repeat; /* Do not repeat the icon image */
+              width: 100%; /* Full-width */
+              font-size: 16px; /* Increase font-size */
+              padding: 12px 20px 12px 40px; /* Add some padding */
+              border: 1px solid #ddd; /* Add a grey border */
+              margin-bottom: 12px; /* Add some space below the input */
+            }
+
+            #myUL {
+              /* Remove default list styling */
+              list-style-type: none;
+              padding: 0;
+              margin: 0;
+            }
+
+            #myUL li a {
+              border: 1px solid #ddd; /* Add a border to all links */
+              margin-top: -1px; /* Prevent double borders */
+              background-color: #f6f6f6; /* Grey background color */
+              padding: 12px; /* Add some padding */
+              text-decoration: none; /* Remove default text underline */
+              font-size: 18px; /* Increase the font-size */
+              color: black; /* Add a black text color */
+              display: block; /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL li a:hover:not(.header) {
+              background-color: #eee; /* Add a hover effect to all links, except for headers */
+            }
+          </style>
       </div>
 
       <img
