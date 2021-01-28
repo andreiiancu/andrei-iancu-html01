@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parohia Ortodoxă Netuș</title>
+  <title>Parohia Ortodoxă Nocrich</title>
 </head>
 <body>
 
@@ -40,8 +40,8 @@ include_once 'headerparohii.php';
         border-bottom: 2px red solid;
         "
           > Protopopiatul Ortodox Agnita</h2>
-          <h3><span>Parohia Ortodoxă Netuș</span></h3>
-          <p> Biserica „Sf. Apostoli Petru şi Pavel”</p>
+          <h3><span>Parohia Ortodoxă Nocrich</span></h3>
+          <p> Biserica „Sf. Vasile cel Mare”</p>
        </div>
 <!--=====end-title-content=====-->
 
@@ -57,7 +57,7 @@ include_once 'headerparohii.php';
             <div class="info-box mb-7">
               <i class="bx bx-map w-100"></i>
               <h3>Adresa</h3>
-              <p>Localitatea Netuş, nr.123, jud. Sibiu</p>
+              <p>Localitatea Nocrich, jud. Sibiu</p>
             </div>
           </div>
 
@@ -66,7 +66,6 @@ include_once 'headerparohii.php';
               <i class="bx bx-envelope"></i>
               <h3>Email</h3>
                 <a class="text-light" href="mailto:">
-                  prconstantinciprian@yahoo.comm
                  </a>
              </div>
           </div>
@@ -79,7 +78,7 @@ include_once 'headerparohii.php';
               <h3 class="">Sună</h3>
 
               <a class="text-light  " href="tel:+">
-              0746.263207
+              0752.817534
               </a>
 
             </div>
@@ -109,14 +108,14 @@ include_once 'headerparohii.php';
             style="background-color:lightcoral; border:darkgrey  solid 10px;"
           >
             <img
-              src="../protopopiatul agnita/assets/img/poze__parohii/Netus/Netus-5.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/nocrich-profil.jpg"
               class="img-fluid col-lg-12 " style="height:57rem; object-fit:scale-down "
               alt=""
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
             >
-            <span style="margin-left: 1rem" class="mb-50 text-light"><i>FOTO: Biserica cu hramul  “Sf. Apostoli Petru şi Pavel” Netuș</i></span>
+            <span style="margin-left: 1rem" class="mb-50 text-light"><i>FOTO: Biserica cu hramul  “Sf. Vasile cel Mare” Nocrich</i></span>
           </div>
           <div
             class=" bg-light article-content col-lg-12 pt-4 pt-lg-0 content d-flex flex-column justify"
@@ -135,11 +134,11 @@ include_once 'headerparohii.php';
            <br>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 ">
             <div class="our-team">
-                <img src="../protopopiatul agnita/assets/img/poze__parohii/Netus/profil-preot1.jpg" style="height:30rem; ">
+                <img src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/profil-preot.jpg" style=" object-fit:contain; object-position:top; height:17rem;">
                 <div class="team-content">
-                    <h3 class="title">Pr. Ciprian CONSTANTIN</h3>
+                    <h3 class="title">Pr. Aurel AVRAM</h3>
                 </div>
             </div>
         </div>
@@ -161,7 +160,7 @@ include_once 'headerparohii.php';
     content: "";
     width: 100%;
     height: 104%;
-    background: #ff3232;
+    /* background: #ff3232; */
     position: absolute;
     top: 50%;
     left: 0;
@@ -184,12 +183,12 @@ include_once 'headerparohii.php';
 }
 .our-team .team-content{
     width: 93%;
-    padding: 25px 0 10px;
+    padding: 5px 0 10px;
     background: #ff4444;
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
     left: 50%;
-    opacity: 0.4;
+    opacity: 0.8;
     -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
     clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
     transform: translateX(-50%);
@@ -269,7 +268,7 @@ include_once 'headerparohii.php';
               text-indent: 4.9ch;
            "
             >
-            Netuș, mai demult Netușei (în dialectul săsesc Netschessen, Njetesen, Net'ezn, în germană Neidhausen, Neithausen, Neuthausen, Agnetenhausen, Neidhaus, în maghiară Netus) este un sat în comuna Iacobeni, județul Sibiu.
+               Pentru prima dată apare în documentele feudale, în anul 1263, sub denumirea de Nogrech, denumire reluată în 1402 în traducere latină ca Noua Ecclesiae. Alte denumiri: Loschkirk, Laeschkirik, Leskirich, Leschkirch, Loschkirch”. Aceste denumiri derivă din cuvintele germane: „Losch” în traducere „stuf” sau „papură” și „Kirch” (=biserică), adică „Biserica acoperită cu stuf”sau „Biserică acoperită cu papură” după unii, iar după alții, numele localității ar fi fost dat de existența, în împrejurimi, a unor bălți cu întinderi mari de stuf.
             </p>
 
 
@@ -287,7 +286,7 @@ include_once 'headerparohii.php';
               text-indent: 4.9ch;
            "
             >
-               Satul Netuş (Netus, Nethausen, Neidhausen, Neithausen Netschessen) este situat la 18 km de oraşul Agnita şi 26 km de municipiul Sighişoara, aparţinând din punct de vedere administrativ comunei Iacobeni, judeţul Sibiu. Anul primei atestări scrise este 1309. 	Vatra satului este alungită pe aproximativ 1 km de şosea şi cu câteva ramificaţii (străzi) care poartă şi acum denumiri săseşti ca Barich, Voar, etc.
+               Comuna Nocrich, se află în județul Sibiu, în partea centrală a României, în Podișul Hârtibaciului, la jumătatea distanței dintre Sibiu și Agnita. Teritoriul a fost locuit din timpuri străvechi, respectiv din perioada comunei primitive. De asemenea s-au păstrat urme de viețuire și din perioada stăpânirii romane, acestea înmulţindu-se odată cu înaintarea în timp.Tradiția spune că pe locul de astăzi al localității Nocrich, era o așezare formată din câteva familii de români, „alungați de niște oameni călări, cu pălării mari și negre și cizme în picioare”, care ar fi întemeiat aici o nouă așezare.
             </p>
 
             <p class=" text-justify "
@@ -297,6 +296,32 @@ include_once 'headerparohii.php';
             >
               	Din punct de vedere geografic localitatea Netuş este situată în partea de nord vest a judeţului Sibiu, având ca vecini la est- satul Noiştat, la vest – Iacobeni, la nord- comuna Apold şi la sud – satul Movile.
             </p>
+
+            <p class=" text-justify "
+            style="text-align:justify;
+              text-indent: 4.9ch;
+           "
+            >
+              Începând cu anul 1349, localitatea a fost reședință pentru Scaunul Nocrich, mai târziu, sediul Scaunului, mutându-se alternativ la Alțâna și Nocrich. În anul 1876 s-a desființat Scaunul Nocrich și a apărut „Pământul Regesc”(Fundus Regius), iar din anul 1919 Nocrichul a devenit centrul plasei Nocrich. Începând cu anul 1945, este centrul administrativ al comunei Nocrich. În recensămintele populației realizate de-a lungul timpului, singurii locuitori consemnaţi sunt sașii, ceea ce înseamnă că datele sunt relative, populaţia românească fiind ignorată complet. Având în vedere existența unei biserici vechi din lemn, apoi din anul 1820, existența actualei biserici, precum și a unui Protopopiat Ortodox cu sediul la Nocrich. Începând cu anul 1760, cu siguranţă trebuia să existe și o populație ortodoxă română destul de numeroasă.
+            </p>
+
+            <p class=" text-justify "
+            style="text-align:justify;
+              text-indent: 4.9ch;
+           "
+            >
+            În anul 1589 localitatea Nocrich a fost ridicată la rang de Opidum- Orășel, având dreptul de a ține târguri, iar din anul 1591 primește dreptul de a aplica pedeapsa capitală (jus gladii). În anul 1710, Împăratul Austriei, Carol al VI-lea, numește pe Mikhael Brekner din Alțâna jude regal si îlînobilează sub numele Von Brukenhal (în contul unei datorii). În anul 1751, împărăteasa Maria Tereza, restituie pământurile românilor alungați din Scaunul Nocrich și îi despăgubește. În anul 1773, viitorul  Împărat, Iosif al II –lea vizitează Nocrich-ul.
+            </p>
+
+            <p class=" text-justify "
+            style="text-align:justify;
+              text-indent: 4.9ch;
+           "
+            >
+               În anul 1800 are loc un incendiu de proporții, fiind distruse 62 de gospodării și vechea biserică luterană și probabil vechea biserică ortodoxă de lemn. Biserica luterană se construiește între anii 1803-1906, în stil Rococo.
+            </p>
+
+
 
 
             <br>
@@ -309,7 +334,7 @@ include_once 'headerparohii.php';
 
 
             <p style="text-align:justify; text-indent: 5ch;">
-              În acest sat se află o bisericuţă din lemn cu hramul Sfinţilor Apostoli Petru şi Pavel, construită în anul 1872. Înaintea actualei biserici, tradiţia consemnează existenţa unei biserici în satul Netuş, tot din lemn, aşezată înspre localitatea Brădeni, până în 1872, anul în care a fost demolată. După demolarea vechii biserici s- a pus piatra de temelie pentru înălţarea unui nou lăcaş de rugăciune. Materialul rezultat din demolarea vechii biserici s- a folosit pentru cealaltă biserică, reconstruită pe deal.
+              Biserica ortodoxă română din comuna Nocrich, cu hramul „Sf. Vasile cel Mare”, este așezată în partea vestică a comunei, la nr. 243. Biserica ocupă o suprafață de 252 m2, arhitectura fiind de tipul bisericilor cu tindă pentru femei și cu altarul despărțit prin perete de cărămidă, cu bolta deasupra ușilor diaconești și împărătești. Primul preot ortodox cunoscut, a fost Pr. Simion Toconia,  hirotonit la Arad, oficiind într-o biserică de lemn cu un clopot. Unii susțin că pe locul acestei biserici s-a ridicat actuala biserică luterană. Actuala biserică a fost zidită între anii 1820-1832, prin donațiile credincioșilor ortodocși și munca enoriașilor (40 de familii), a fost sfințită de episcopul Vasile Mangra.În decursul existenței, biserica a suferit reparații importante în anii: 1894, 1905, 1927, 1946, 1975, 1991, 2003,2004 și pictată între anii 2006-2008, de către pictorul bisericesc Ioan Dobre, cu ajutorul donațiilor credincioșilor și cu ajutorul Primăriei.
             </p>
 
            <p class="col-lg-12 text-justify "
@@ -330,12 +355,12 @@ include_once 'headerparohii.php';
               text-indent: 5ch;
            "
             >
-           <span style=" text-decoration:underline;">Pictura </span>: Nu este pictată.
+           <span style=" text-decoration:underline;">Pictura </span>: Vezi în descrierea de mai sus.
            </p>
 
 
 
-            <p class="col-lg-12"> <span class="font-italic" >Obiecte vechi de cult</span>: Nu există.</p>
+            <p class="col-lg-12"> <span class="font-italic" >Obiecte vechi de cult</span>:</p>
 
             <p style="text-align:justify; text-indent: 5ch;">
               În Sfânta Biserică se află un iconostas din lemn pe care sunt aşezate icoane pictate pe lemn şi pe sticlă (patrimoniu cultural). Aceste icoane sunt împodobite cu ştergare cu motive populare, lucrate manual de credincioasele din sat.
@@ -355,8 +380,93 @@ include_once 'headerparohii.php';
            </p>
 
             <p class="col-lg-12" style=" text-align:justify; text-indent: 5ch;">
-              Şirul preoţilor parohi: Ioan Grecu (1872-1883); Nicolae Dobre (1884-1912); Andrei Moldovan (1913-1922); Valeriu Cozma (1923-1924); Ilarion Euciu (1925-1931); Sabin Dobre (1932-1935); Gheorghe Tohănean (1935-1952); Gheorghe Dumitrescu (1953-1959); Emil Vlad (1960-1976); Traian Mehedinţu (1977-1984); Dan Dragoman (1985-1992); Dorin Gavrilescu (1992-1998); Ciprian Constantin (1998-prezent).
+            <ul style="list-style-type: none;">
+              <li>
+                1.	Pr. Simion Toconea, 1802
+              </li>
+              <li>
+                2. 	Pr. Iosif Cândea , 1841
+              </li>
+              <li>
+                3.	Pr. Ioan Sinai, 1847
+              </li>
+              <li>
+                4.	Pr. Grigorie Maier, 1847-1896
+              </li>
+              <li>
+                5.	Pr. Nicolae Moldovan, 1896-1903
+              </li>
+              <li>
+                6.	Pr.Aron Nețianu, 1904-1921
+              </li>
+              <li>
+                7.	Pr. Florian Bologa, 1922-1928
+              </li>
+              <li>
+                8.	Pr. Nicolae Pandrea, 1928-1930
+              </li>
+              <li>
+                9.	Pr. Ioan Ghicășaru, 1930-1959
+              </li>
+              <li>
+                 10.	Pr. Lazăr Bordean, 1959-1968
+              </li>
+              <li>
+                 11.	Pr. Cercel Popovici,  1968-1972
+              </li>
+              <li>
+                 12.	Pr. Traian Pui, 1972-1974
+              </li>
+              <li>
+                 13.	Pr. Vasile Bogdan, 1974-1986
+              </li>
+              <li>
+                 14.	Pr. Aurel Avram, 1986-prezent
+              </li>
+            </ul>
            </p>
+
+           <p class="col-lg-12" style="text-indent: 5ch;">
+            Începând cu anul 1760 la Nocrich funcționa Tractul( Protopopiatul) Nocrich și Cincu Mare, până în anul 1903, când se va muta la Agnita. După Conscripția de la 1760-1762, se amintește de Scaunul săsesc Nocrich și Tractul sau Protopopiatul Nocrich, la care aparțineau parohiile: Nocrich (39 familii), Alțâna (75 familii), Ghijasa de Jos (55 familii), Pelișor și Hosman (44 familii), Marpod (51 familii), Benești (136 familii), Săsăuș (199 familii), Fofeldea (238 familii), Ilimbav (181 familii), Țichindeal (92 familii).
+            </p>
+
+             <h6 class="col-lg-12" > Șirul Protopopilor de Nocrich este:</h6>
+
+            <p class="col-lg-12" style="text-indent: 5ch;">
+            <ul style="list-style-type: none;">
+              <li>
+                1.	Protopop Stefan Radovici, 1805
+              </li>
+              <li>
+                2.	Nicolae Popea, 1867-1870
+              </li>
+            </ul>
+            </p>
+
+             <p class="col-lg-12" style="text-indent: 5ch;">
+             La anul 1870 se contopesc cele două tracte al Cincului și al Nocrich-ului formându-se unul singur, al Agnitei, însă reședința este tot la Nocrich, fiind administrat de:
+            </p>
+
+              <p class="col-lg-12" style="text-indent: 5ch;">
+            <ul style="list-style-type: none;">
+              <li>
+                3.	Protopop Grigorie Maier 1870-1881
+              </li>
+              <li>
+                4.	Protopop Nicolae Maier 1901-1903
+              </li>
+            </ul>
+            </p>
+
+            <p class="col-lg-12" style="text-indent: 5ch;">
+              Prin organizațiile sale teritoriale Astra, organiza anual adunări generale, cu mii de participanți- adevărate congrese de solidaritate națională la Nocrich. Adunarea generală s-a ținut la 24 iunie 1930, delegația Astrei și oaspeții într-un număr impresionant, a fost primită la hotarul comunei, iar în centrul comunei s-a ținut slujba de invocare a Duhului Sfânt, apoi s-a prezentat carul alegoric, delegația a donat un dulap plin cu cărți.
+            </p>
+
+            <h6 class="col-lg-12" >Școala</h6>
+
+            <p class="col-lg-12" style="text-indent: 5ch;">
+            „ Școală au avut românii din Nocrich. Urme se găsesc prin anii 1700-1840, unde era cercetată de consilierul Iacob Bologa din Marpod, ca școlar. Învățământul era foarte primitiv. Între învățători s-au perindat în acest timp sunt Iosif Morariu, care a fost primul dascăl calificat și care a ținut prelegeri mai regulat în limba română și germană, Ioan Flităr, Ioan Damian, Ilie Bunea, Dumitru Purece, Nicolae Tecușan și din anul 1912 Simion Dragoman.
+            </p>
 
           <h6 class="col-lg-12" >C. Cimitirul</h6>
 
@@ -368,14 +478,14 @@ include_once 'headerparohii.php';
           <h6 style="line-height: 1.2";>D. Activități culturale și filantropice în trecut:   </h6>
 
             <p class="col-lg-12" style="text-indent: 5ch;">
-             Nu se cunosc.
+            În descrierile de mai sus.
             </p>
 
           <br>
           <h6 style="line-height: 1.2";>E. Profilul actual al parohiei:</h6>
 
            <p class="col-lg-12" style="text-indent: 5ch;">
-            Numărul de credincioşi: 190.
+           În prezent comuna Nocrich este în plină dezvoltare economică și spirituală. În comună funcționează Primăria Nocrich, Școala Generală cu clasele I-VIII, dispensar uman și veterinar.
           </p>
 
           <p class="col-lg-12 text-justify "
@@ -398,11 +508,27 @@ include_once 'headerparohii.php';
 <p style="text-indent: 5ch;">
 <ul style="list-style-type: none;">
   <li>
-    1. <i>Arhiva Parohiei Ortodoxe Movile</i>;
+    1. <i>	Monografii anterioare</i>;
   </li>
 
     <li>
-    2. <i>ro.wikipedia.org/wiki/Netuș,_Sibiu</i>;
+      2.	Rapoarte ale Parohiei Nocrich;
+  </li>
+
+   <li>
+   3.	Rusu Vasile,” Românii din Marpod”, Sibiu,1999;
+  </li>
+
+   <li>
+   4.	Nistor Nicolae, M.N. Marinescu ”Sibiul și ținutul în lumina istoriei”, vol.II, Cluj- Napoca,1990;
+  </li>
+
+   <li>
+   5.	Mihuleț Achim, profesor Com. Nocrich- „O posibilă zonă turistică” Nocrich,2010;
+  </li>
+
+   <li>
+   6.	Stoicescu Nicolae,” Repertoriul bibliografic al localităților și monumentelor medievale din Transilvania, vol. II,  Ed. Andreiană Sibiu,2013”;
   </li>
 </ul>
 </p>
@@ -466,7 +592,7 @@ include_once 'headerparohii.php';
           <li class="carousel_slide current-slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Netus/Netus-1.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/nocrich-1.jpg"
               alt=""
               width="90px"
               style="object-fit: contain;"
@@ -474,19 +600,10 @@ include_once 'headerparohii.php';
             >
           </li>
 
-          <li class="carousel_slide">
-            <img
-              class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Netus/Netus-2.jpg"
-              alt=""
-              width="90px"
-              style="object-fit: contain;"
-            >
-            </li>
             <li class="carousel_slide current-slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Netus/Netus-3.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/nocrich-2.jpg"
               alt=""
               width="90px"
               style="object-fit: contain;"
@@ -494,24 +611,61 @@ include_once 'headerparohii.php';
             >
           </li>
 
-            <li class="carousel_slide">
+            <li class="carousel_slide current-slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Netus/Netus-4.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/nocrich-3.jpg"
               alt=""
               width="90px"
               style="object-fit: contain;"
+
             >
-             </li>
-             <li class="carousel_slide">
+          </li>
+
+            <li class="carousel_slide current-slide">
             <img
               class="carousel_image"
-              src="../protopopiatul agnita/assets/img/poze__parohii/Netus/Netus-5.jpg"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/nocrich-4.jpg"
               alt=""
               width="90px"
               style="object-fit: contain;"
+
             >
-             </li>
+          </li>
+
+            <li class="carousel_slide current-slide">
+            <img
+              class="carousel_image"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/nocrich-5.jpg"
+              alt=""
+              width="90px"
+              style="object-fit: contain;"
+
+            >
+          </li>
+
+            <li class="carousel_slide current-slide">
+            <img
+              class="carousel_image"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/nocrich-6.jpg"
+              alt=""
+              width="90px"
+              style="object-fit: contain;"
+
+            >
+          </li>
+
+            <li class="carousel_slide current-slide">
+            <img
+              class="carousel_image"
+              src="../protopopiatul agnita/assets/img/poze__parohii/Nocrich/nocrich-profil.jpg"
+              alt=""
+              width="90px"
+              style="object-fit: contain;"
+
+            >
+          </li>
+
         </ul>
 
       </div>
@@ -528,6 +682,8 @@ include_once 'headerparohii.php';
       </button>
       <div class="carousel_nav">
         <button class="carousel_indicator current-slide"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
