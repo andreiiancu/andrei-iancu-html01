@@ -3,20 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parohia Ortodoxă Movile</title>
+  <title>Parohia Ortodoxă Netuș</title>
 </head>
 <body>
-  <?php
+
+<!--=====header=====-->
+<?php
 include_once 'headerparohii.php';
 ?>
- <section
-      id="about"
+<!--=====end-header=====-->
+
+<!--=====about-section=====-->
+ <section  id="about"
       class="about section-bg col-lg-12"
       style="margin-top: 6rem;
       background-color: transparent;
-      "
+      ">
 
-    >
+<!-- crux -->
+ <div class="crux d-flex justify-content-center ">
+   <img src="../protopopiatul agnita/assets/img/poze__parohii/cruce-logo-parohie.jpg" alt="" height="40px">
+ </div>
+ <!-- crux -->
+
+<!--=====title-content=====-->
       <div
         class="container"
         data-aos="fade-up"
@@ -30,68 +40,83 @@ include_once 'headerparohii.php';
         border-bottom: 2px red solid;
         "
           > Protopopiatul Ortodox Agnita</h2>
-          <h3><span>Parohia Ortodoxă Movile</span></h3>
-          <p> Biserica „Sfântul Ierarh Nicolae”</p>
+          <h3><span>Parohia Ortodoxă Netuș</span></h3>
+          <p> Biserica „Sf. Apostoli Petru şi Pavel”</p>
        </div>
+<!--=====end-title-content=====-->
+
 
        <!-- contact -->
         <div
-          class="row "
-          style="
-          margin-left:1rem;
-          width: 70rem;
-          "
+          class=" contact-priest  row  "
+
           data-aos="fade-up"
           data-aos-delay="100"
           >
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
+          <div class=" subcontact col-lg-6 h-80">
+            <div class="info-box mb-7">
               <i class="bx bx-map w-100"></i>
               <h3>Adresa</h3>
               <p>Localitatea Movile, jud. Sibiu</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class=" subcontact col-lg-3 col-md-6">
             <div class=" info-box mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email</h3>
-                <a class="text-secondary" href="mailto:">
+                <a class="text-light" href="mailto:">
                   zamfir.dumitru@yahoo.com
                  </a>
              </div>
           </div>
 
-          <div class="col-lg-2 col-md-4"
-          style="margin-right: -1px;"
-          >
-            <div class="info-box  mb-4 ">
-              <i class="bx bx-phone-call ml-5"></i>
-              <h3 class="ml-5">Sună</h3>
+          <div class=" subcontact col-lg-3 col-md-6"
 
-              <a class="text-secondary ml-5 w-60" href="tel:+">
+          >
+            <div class="info-box  mb-4 col-md-6">
+              <i class="bx bx-phone-call "></i>
+              <h3 class="">Sună</h3>
+
+              <a class="text-light  " href="tel:+">
               0745.765291
               </a>
 
             </div>
             </div>
             </div>
+            <style>
+               .contact-priest :hover {
+                background-color: lightcoral;
+                color: #fff;
+              }
+
+               .contact-priest {
+                background-color: lightslategrey;
+                color: #fff;
+              }
+
+
+            </style>
             <!-- end-contact -->
 
         <div class="row">
           <div
-            class="col-lg-12 "
+            class="front-image col-lg-12"
             data-aos="zoom-out"
             data-aos-delay="100"
-            style="background-color:gainsboro"
+
+            style="background-color:lightcoral; border:darkgrey  solid 10px;"
           >
             <img
-              src="../protopopiatul agnita/assets/img/poze__parohii/Movile/movile-1.jpg"
-              class="img-fluid col-lg-12 " style="height:57rem; object-fit:contain "
+              src="../protopopiatul agnita/assets/img/poze__parohii/Netus/Netus-5.jpg"
+              class="img-fluid col-lg-12 " style="height:57rem; object-fit:scale-down "
               alt=""
-jhhjhjhjhjh
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
             >
-            <span style="margin-left: 1rem" class="mb-50 text-danger"><i>FOTO: Biserica cu hramul hramul “ Sfântul Ierarh Nicolae” Movile</i></span>
+            <span style="margin-left: 1rem" class="mb-50 text-light"><i>FOTO: Biserica cu hramul hramul “ Sfântul Ierarh Nicolae” Movile</i></span>
           </div>
           <div
             class=" bg-light article-content col-lg-12 pt-4 pt-lg-0 content d-flex flex-column justify"
@@ -112,12 +137,9 @@ jhhjhjhjhjh
     <div class="row justify-content-center">
         <div class="col-md-4 col-sm-6">
             <div class="our-team">
-                <img src="../protopopiatul agnita/assets/img/poze__parohii/Movile/profil-preot.jpg" style="height:30rem;">
+                <img src="../protopopiatul agnita/assets/img/poze__parohii/Netus/profil-preot1.jpg" style="height:30rem; ">
                 <div class="team-content">
-                    <h3 class="title">Pr.  Florin-Dumitru ROBU ZAMFIR</h3>
-                    <ul class="social">
-
-                    </ul>
+                    <h3 class="title">Pr. Ciprian CONSTANTIN</h3>
                 </div>
             </div>
         </div>
@@ -228,10 +250,10 @@ jhhjhjhjhjh
     <br> <br> <br>
 
 </div>
-          <!--=====end-foto-priest=====-->
+<!--=====end-foto-priest=====-->
 
 
-
+<!--=====content-text=====-->
             <h6 style="line-height: 1.2";>A. Istoricul comunității parohiale</h6>
 
              <p class="col-lg-12 text-justify "
@@ -396,8 +418,11 @@ jhhjhjhjhjh
         </div>
 
       </div>
-    </section><!-- End About Section -->
+<!--=====end-content-text=====-->
+    </section>
+<!-- End About Section -->
 
+<!--=====Carousel-foto=====-->
     <section
     style="
     height: 70rem;
@@ -481,12 +506,14 @@ jhhjhjhjhjh
         <button class="carousel_indicator"></button>
       </div>
     </div>
-    <!--END CARUSEL-->
   </section>
-                  <!--=====Carusel=====-->
+<!--=====end-Carousel=====-->
 
+
+<!--=====footer=====-->
 <?php
 include_once 'footer.php';
 ?>
+<!--=====end-footer=====-->
 </body>
 </html>
